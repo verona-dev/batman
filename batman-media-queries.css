@@ -1,0 +1,187 @@
+:root {
+  font-size: 16px;
+}
+
+/*
+██████  ███████ ███████ ██   ██ ████████  ██████  ██████
+██   ██ ██      ██      ██  ██     ██    ██    ██ ██   ██
+██   ██ █████   ███████ █████      ██    ██    ██ ██████
+██   ██ ██           ██ ██  ██     ██    ██    ██ ██
+██████  ███████ ███████ ██   ██    ██     ██████  ██
+*/
+@media (min-width: 1280px) {
+  nav ul li a:hover {
+    color: rgb(253, 227, 17);
+    /*color: rgb(255, 199, 108);*/
+  }
+
+  .wrappers {
+  }
+}
+
+/*
+████████  █████  ██████  ██      ███████ ████████ ███████
+   ██    ██   ██ ██   ██ ██      ██         ██    ██
+   ██    ███████ ██████  ██      █████      ██    ███████
+   ██    ██   ██ ██   ██ ██      ██         ██         ██
+   ██    ██   ██ ██████  ███████ ███████    ██    ███████
+*/
+@media screen and (min-width: 750px) and (max-width: 1280px) {
+  .wrappers {}
+
+
+  /*.profile-logo {
+    background-size: 140%;
+  }*/
+}
+
+/*
+███    ███  ██████  ██████  ██ ██      ███████
+████  ████ ██    ██ ██   ██ ██ ██      ██
+██ ████ ██ ██    ██ ██████  ██ ██      █████
+██  ██  ██ ██    ██ ██   ██ ██ ██      ██
+██      ██  ██████  ██████  ██ ███████ ███████
+*/
+@media screen and (max-width: 750px) {
+  .logo {
+    width: 20vw;
+    /*display: none;*/
+  }
+
+  nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  nav ul {
+  }
+
+  nav ul li {
+}
+  nav ul li a {
+    font-size: 1rem;
+  }
+
+  #hero {
+    background-attachment: local;
+  }
+
+
+  .hero-text {
+    width: 70vw;
+    height: 25vh;
+  }
+
+  #hero h1 {
+    font-size: 4rem;
+  }
+
+  #hero h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  /*.boxes {
+    margin: 0;
+  }*/
+  
+  .wrappers {}
+
+  .hero-to-movies {}
+
+  .feature {
+    flex-basis: 80%;
+    margin-top: 350px;
+  }
+
+  .feature3 {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+
+  /*
+  ███    ███  ██████  ██████  ██ ██      ███████
+  ████  ████ ██    ██ ██   ██ ██ ██      ██
+  ██ ████ ██ ██    ██ ██████  ██ ██      █████
+  ██  ██  ██ ██    ██ ██   ██ ██ ██      ██
+  ██      ██  ██████  ██████  ██ ███████ ███████
+  */
+  /*
+  ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
+  ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
+  ██  █  ██ ██████  ███████ ██████  ██████  █████   ██████  ███████
+  ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
+   ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
+  */
+  .wrappers {
+  }
+
+  .actors-to-gallery {
+    background-position: left;
+    background-size: cover;
+    /*width: 100vw;
+    height: 100vh;*/
+  }
+
+  #gallery h1 {
+    font-size: 2rem;
+  }
+
+  .feature p {
+
+  }
+
+  .picture {
+    height: 45vh;
+    width: 90vw;
+    /*
+     
+    height: 250px;
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;*/
+  }
+
+  .actors .feature .picture {
+    height: 200px;
+    width: 320px;
+  }
+
+  .footer-img {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  /*
+  ███    ███  ██████  ██████  ██ ██      ███████
+  ████  ████ ██    ██ ██   ██ ██ ██      ██
+  ██ ████ ██ ██    ██ ██████  ██ ██      █████
+  ██  ██  ██ ██    ██ ██   ██ ██ ██      ██
+  ██      ██  ██████  ██████  ██ ███████ ███████
+  */
+  /*
+   ██████   █████  ██      ██      ███████ ██████  ██    ██
+  ██       ██   ██ ██      ██      ██      ██   ██  ██  ██
+  ██   ███ ███████ ██      ██      █████   ██████    ████
+  ██    ██ ██   ██ ██      ██      ██      ██   ██    ██
+   ██████  ██   ██ ███████ ███████ ███████ ██   ██    ██
+  */
+  /*.container {
+    height: 545px;
+  }
+
+  .box>img {
+    width: 200%;
+    height: calc(100% - 10vh);
+  }
+
+  .box>span {
+    font-size: 1.9rem;
+  }
+  */
+}
