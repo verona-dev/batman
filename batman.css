@@ -37,9 +37,9 @@ header {
 
 .logo {
   display: block;
-  left: 5px;
-  position: absolute;
   height: 8vh;
+  left: 0;
+  position: absolute;
 }
 
 nav {
@@ -56,10 +56,13 @@ nav ul {
 }
 
 nav ul li {
+  display: inline-block;
+  /*puts them on same ROW, instead column */
   line-height: 8vh;
   /* same as parent's height; centers the content vertically */
   list-style: none;
-
+  overflow: hidden;
+  position: relative;
 }
 
 nav ul li a {
@@ -72,7 +75,7 @@ nav ul li a {
   text-decoration: none;
   text-transform: capitalize;
   /*text-align: center;*/
-  
+  min-width: 7vw;
 }
 
 /*
@@ -232,14 +235,7 @@ p {
 ██   ██ ██   ████  ██████ ██   ██  ██████  ██   ██ ███████
 */
 #movies::before,
-#actors::before {
-  content: '';
-  display: block;
-  height: 8vh;
-  margin-top: -8vh;
-  visibility: hidden;
-}
-
+#actors::before,
 #gallery::before {
   content: '';
   display: block;
