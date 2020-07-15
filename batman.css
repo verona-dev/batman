@@ -43,9 +43,9 @@ header {
 }
 
 nav {
+  background-color: rgba(38, 38, 38, 0.85);
   height: 8vh;
   width: 100%;
-  background-color: rgba(38, 38, 38, 0.85);
 }
 
 nav ul {

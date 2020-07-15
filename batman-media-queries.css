@@ -40,6 +40,7 @@
     max-width: 120px;
     max-width: 7vw;*/
     width: 120px;
+    width: 7vw;
     
     transition: color .6s ease 0s;
     transition: background-color .8s ease 0s;
@@ -162,9 +163,9 @@
   }
 
   nav {
-    width: 100vw;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   nav ul {
