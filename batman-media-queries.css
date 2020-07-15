@@ -36,6 +36,10 @@
   }
 
   nav ul li a {
+/*    min-width: 10vw;
+    max-width: 120px;
+    max-width: 7vw;*/
+    width: 120px;
     
     transition: color .6s ease 0s;
     transition: background-color .8s ease 0s;
@@ -103,6 +107,35 @@
 }
 
 /*
+███    ██  █████  ██    ██
+████   ██ ██   ██ ██    ██
+██ ██  ██ ███████ ██    ██
+██  ██ ██ ██   ██  ██  ██
+██   ████ ██   ██   ████
+*/
+/*
+██████  ███████ ███████ ██████   ██████  ███    ██ ███████
+██   ██ ██      ██      ██   ██ ██    ██ ████   ██ ██
+██████  █████   ███████ ██████  ██    ██ ██ ██  ██ ███████
+██   ██ ██           ██ ██      ██    ██ ██  ██ ██      ██
+██   ██ ███████ ███████ ██       ██████  ██   ████ ███████
+*/
+
+
+@media screen and (max-width: 1280px) {
+  
+  
+  nav ul li a {
+    min-width: 7vw;
+    padding: 0 10px;
+  }
+  
+}
+
+
+
+
+/*
 ████████  █████  ██████  ██      ███████ ████████ ███████
    ██    ██   ██ ██   ██ ██      ██         ██    ██
    ██    ███████ ██████  ██      █████      ██    ███████
@@ -123,16 +156,22 @@
 @media screen and (max-width: 750px) {
   .logo {
     left: 0;
+    width: 12vw;
+  }
+  nav img {
   }
 
   nav {
-  /*  display: flex;
-    justify-content: center;*/
+    width: 100vw;
+    display: flex;
+    justify-content: center;
   }
 
-  nav ul {}
-
-  nav ul li {}
+  nav ul {
+}
+  nav ul li {
+    
+  }
 
   nav ul li a {
   }
