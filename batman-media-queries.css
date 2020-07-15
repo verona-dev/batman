@@ -10,6 +10,37 @@
 ██████  ███████ ███████ ██   ██    ██     ██████  ██
 */
 @media screen and (min-width: 1280px) {
+  header {
+
+  /*  display: block;*/
+  }
+
+  .logo {
+    left: 10px;
+  }
+
+  nav {
+
+  }
+
+  nav ul {
+
+  }
+
+  nav ul li {
+    /* display: inline-block;
+    puts them on same ROW, instead column */
+    /* float: left; removes the space between links */
+  /*  position: relative;
+    overflow: hidden;*/
+  }
+
+  nav ul li a {
+    
+    transition: color .6s ease 0s;
+    transition: background-color .8s ease 0s;
+  }
+
   nav ul li a:hover {
     color: rgb(253, 227, 17);
     /*color: rgb(255, 199, 108);*/
@@ -79,11 +110,7 @@
    ██    ██   ██ ██████  ███████ ███████    ██    ███████
 */
 @media screen and (min-width: 750px) and (max-width: 1280px) {
-  .wrappers {}
 
-  /*.profile-logo {
-    background-size: 140%;
-  }*/
 }
 
 /*
@@ -95,14 +122,12 @@
 */
 @media screen and (max-width: 750px) {
   .logo {
-    width: 20vw;
-    /*display: none;*/
+    left: 0;
   }
 
   nav {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+  /*  display: flex;
+    justify-content: center;*/
   }
 
   nav ul {}
@@ -110,15 +135,14 @@
   nav ul li {}
 
   nav ul li a {
-    font-size: 1rem;
   }
 
   #hero {
-    background-attachment: local;
+    /*background-attachment: local;*/
   }
 
   .hero-text {
-    width: 70vw;
+    min-width: 50vw;
     height: 25vh;
   }
 
@@ -229,14 +253,13 @@
     height: 100%;
     /*overflow: hidden;*/
     text-align: center;
-    
   }
+
   .container {
     background-color: rgb(38, 38, 38);
     width: 100%;
     height: 100%;
     /*margin: 50px;*/
-    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -247,20 +270,20 @@
     width: 100%;
     /*height: 50%;*/
   }
+
   .box-image {
     border: 10px solid whitesmoke;
     width: 90vw;
     max-width: 100vw;
-    
     height: 40vh;
     max-height: 70vh;
   }
+
   span {
     display: block;
     color: whitesmoke;
   }
 
-    
   .footer-img {
     height: 60vh;
     width: 100%;
@@ -268,7 +291,6 @@
     background-repeat: no-repeat;
     background-size: 50% 50%;
     background-position: right;
-
   }
 
   /*#footer {
