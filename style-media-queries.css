@@ -10,35 +10,28 @@
 ██████  ███████ ███████ ██   ██    ██     ██████  ██
 */
 @media screen and (min-width: 1280px) {
-  header {
-  }
+  header {}
 
-  .logo {
-  }
+  .logo {}
 
-  nav {
+  nav {}
 
-  }
-
-  nav ul {
-
-  }
+  nav ul {}
 
   nav ul li {
     /* display: inline-block;
     puts them on same ROW, instead column */
     /* float: left; removes the space between links */
-  /*  position: relative;
+    /*  position: relative;
     overflow: hidden;*/
   }
 
   nav ul li a {
-/*    min-width: 10vw;
+    /*    min-width: 10vw;
     max-width: 120px;
     max-width: 7vw;*/
     width: 120px;
     width: 7vw;
-    
     transition: color .6s ease 0s;
     transition: background-color .8s ease 0s;
   }
@@ -118,19 +111,56 @@
 ██   ██ ██           ██ ██      ██    ██ ██  ██ ██      ██
 ██   ██ ███████ ███████ ██       ██████  ██   ████ ███████
 */
-
-
 @media screen and (max-width: 1280px) {
-  
-  
-  nav ul li a {
-    /*padding: 0 12px;*/
+
+  header,
+  nav,
+  nav ul,
+  .logo-link,
+  .logo {
+    height: 12vh;
   }
-  
+
+  .logo-list {
+    background-color: aqua;
+    max-width: 70%;
+    width: 70%;
+  }
+  .logo-link {
+    background-color: yellow;
+    width: 100%;
+/*    position: absolute;
+    left: 0;*/
+  }
+  .logo {
+    /*background-color:  aquamarine;*/
+    max-width: 18vw;
+    width: 80%;
+  }
+
+
+  nav {
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    position: absolute;
+    /*background-color: aqua;*/
+    width: 100vw;
+  }
+
+  nav ul li {
+    /*background-color: crimson;*/
+    line-height: 12vh;
+    width: 100%;
+  }
+
+  nav ul li a {
+    font-size: 0.9rem;
+  }
 }
-
-
-
 
 /*
 ████████  █████  ██████  ██      ███████ ████████ ███████
@@ -139,9 +169,7 @@
    ██    ██   ██ ██   ██ ██      ██         ██         ██
    ██    ██   ██ ██████  ███████ ███████    ██    ███████
 */
-@media screen and (min-width: 750px) and (max-width: 1280px) {
-
-}
+@media screen and (min-width: 750px) and (max-width: 1280px) {}
 
 /*
 ███    ███  ██████  ██████  ██ ██      ███████
@@ -154,49 +182,11 @@
   body {
     overflow: hidden;
   }
-  header,
-  nav,
-  nav ul,
-  .logo-link,
-  .logo
-   {
-    height: 12vh;
-  }
 
-  .logo-link {
-    /*background-color: yellow;*/
-    width: 100%;
-    position: absolute;
-    left: 0;
-  }
-
-  .logo {
-    /*background-color:  aquamarine;*/
-    max-width: 18vw;
-    }
-  
-  nav {
-    background-color: rgb(38, 38, 38);
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  nav ul {
-    position: absolute;
-    /*background-color: aqua;*/
-    width: 100%;
-
-}
-  nav ul li {
-    /*background-color: crimson;*/
-    line-height: 12vh;
-    width: 100%;
-  }
-
-  nav ul li a {
-    font-size: 0.9rem;
-  }
+/*  .logo-list {
+    background-color: aqua;
+    width: 70%;
+  }*/
 
   #hero {
     background-attachment: local;
@@ -222,16 +212,16 @@
   /*.boxes {
     margin: 0;
   }*/
-
   .feature {
     flex-basis: 80%;
   }
 
   .feature3 {
     margin-top: 150px;
-/*    margin-top: 100px;
+    /*    margin-top: 100px;
     margin-bottom: 200px;*/
   }
+
   /*
   ███    ███  ██████  ██████  ██ ██      ███████
   ████  ████ ██    ██ ██   ██ ██ ██      ██
@@ -252,16 +242,14 @@
     height: 12vh;
     margin-top: -12vh;
   }
-  
-/*  #footer::before {
+
+  /*  #footer::before {
     content: '';
     display: block;
     height: -70px;
     margin-top: -70px;
     visibility: hidden;
   }*/
-
-
   /*
   ███    ███  ██████  ██████  ██ ██      ███████
   ████  ████ ██    ██ ██   ██ ██ ██      ██
