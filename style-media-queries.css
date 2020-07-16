@@ -164,8 +164,8 @@
   }
 
   .logo-link {
-    background-color: yellow;
-    width: 18vw;
+    /*background-color: yellow;*/
+    width: 100%;
     position: absolute;
     left: 0;
   }
@@ -184,15 +184,14 @@
 
   nav ul {
     position: absolute;
-    background-color: aqua;
+    /*background-color: aqua;*/
     width: 100%;
 
 }
   nav ul li {
-    background-color: crimson;
+    /*background-color: crimson;*/
     line-height: 12vh;
-    width: 20vw;
-    margin-right: 10px;
+    width: 100%;
   }
 
   nav ul li a {

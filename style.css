@@ -44,7 +44,7 @@ header {
 }
 
 .logo-link {
-  background-color: greenyellow;
+  /*background-color: greenyellow;*/
   display: inline-block;
   /*
   display: inline-block;
@@ -64,7 +64,7 @@ nav {
 }
 
 nav ul {
-  background-color: aqua;
+  /*background-color: aqua;*/
   width: 50vw;
   margin: 0 auto;
   
