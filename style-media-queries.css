@@ -28,8 +28,13 @@
     color: rgb(253, 227, 17);
     /*color: rgb(255, 199, 108);*/
   }
+  .hero-text {
+    min-width: 30vw;
+    height: 30vh;
+    bottom: 280px;
 
-  .wrappers {}
+  }
+  
 
   /*
    ██████   █████  ██      ██      ███████ ██████  ██    ██
@@ -198,6 +203,7 @@
     margin-top: -70px;
     visibility: hidden;
   }*/
+  
   /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
   ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
@@ -306,6 +312,10 @@
 ██      ██  ██████  ██████  ██ ███████ ███████
 */
 @media screen and (max-width: 750px) {
+  html {
+    overflow: scroll;
+  }
+  
   body {
     overflow: hidden;
   }
@@ -322,10 +332,10 @@
     background-attachment: local;
   }
 
-  .hero-text {
+/*  .hero-text {
     min-width: 50vw;
     height: 25vh;
-  }
+  }*/
 
   #hero h1 {
     font-size: 4rem;

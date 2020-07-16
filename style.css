@@ -170,8 +170,6 @@ nav ul li a {
 
 #gallery h2 {
   background-color: rgb(38, 38, 38);
-  text-align: center;
-  width: 100%;
   color: whitesmoke;
   margin: 0;
   padding-top: 40px;
@@ -188,6 +186,7 @@ h3 {
   background-color: chocolate;
   font-size: 22px;
   margin-top: 5px;} === */
+  
 p {
   line-height: 1.4em;
   margin-bottom: 10px;
@@ -215,7 +214,7 @@ p {
   font-family: 'Cormorant', sans-serif;
   font-size: 2em;
   font-weight: 500;
-  line-height: 2.4em;
+  line-height: 2.6em;
   text-align: center;
 }
 
@@ -296,7 +295,7 @@ p {
 }
 
 .feature {
-  height: 1100px;
+  height: 1200px;
   position: relative;
   /*<-- if navbar disappears, disable relative */
   flex-basis: 20%;
