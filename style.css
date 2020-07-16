@@ -28,28 +28,46 @@ html, body {
 ██  ██ ██ ██   ██  ██  ██
 ██   ████ ██   ██   ████
 */
-header {
+header,
+nav,
+nav ul,
+.logo-link,
+.logo
+ {
   height: 8vh;
+}
+
+header {
   position: fixed;
   width: 100%;
   z-index: 10;
 }
 
-.logo {
-  display: block;
-  height: 8vh;
-  left: 0;
+.logo-link {
+  background-color: greenyellow;
+  display: inline-block;
+  /*
+  display: inline-block;
   position: absolute;
+  left: 0;
+  overflow: hidden;
+  */
 }
+.logo {
+    width: 100px;
+}
+
 
 nav {
   background-color: rgba(38, 38, 38, 0.85);
-  height: 8vh;
   width: 100%;
 }
 
 nav ul {
-  width: 100%;
+  background-color: aqua;
+  width: 50vw;
+  margin: 0 auto;
+  
   display: flex;
   justify-content: center;
   text-align: center;

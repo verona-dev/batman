@@ -14,7 +14,6 @@
   }
 
   .logo {
-    left: 10px;
   }
 
   nav {
@@ -125,7 +124,7 @@
   
   
   nav ul li a {
-    padding: 0 12px;
+    /*padding: 0 12px;*/
   }
   
 }
@@ -155,31 +154,29 @@
   body {
     overflow: hidden;
   }
-  header {
+  header,
+  nav,
+  nav ul,
+  .logo-link,
+  .logo
+   {
     height: 12vh;
   }
 
-  .nav-link {
-    /*background-color: greenyellow;*/
-    display: inline-block;
-    width: 24vw;
-    height: 15vh;
+  .logo-link {
+    background-color: yellow;
+    width: 18vw;
     position: absolute;
     left: 0;
-    overflow: hidden;
   }
 
   .logo {
     /*background-color:  aquamarine;*/
     max-width: 18vw;
-    height: 12vh;
-    display: block;
-    position: relative;
-  }
+    }
   
   nav {
     background-color: rgb(38, 38, 38);
-    height: 12vh;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -187,10 +184,15 @@
 
   nav ul {
     position: absolute;
-    left: 8vw;
+    background-color: aqua;
+    width: 100%;
+
 }
   nav ul li {
+    background-color: crimson;
     line-height: 12vh;
+    width: 20vw;
+    margin-right: 10px;
   }
 
   nav ul li a {
