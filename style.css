@@ -127,18 +127,20 @@ nav ul li a {
 ██       ██████  ██   ████    ██
 */
 .hero-text {
-  min-width: 30vw;
-  height: 30vh;
   border: 5px solid rgb(253, 227, 17);
   background-color: rgba(114, 169, 226, 0.1);
   background-color: rgba(245, 245, 245, 0.1);
-  bottom: 280px;
+  bottom: 30%;
   color: rgb(253, 227, 17);
   color: whitesmoke;
   cursor: default;
   font-family: 'Lato', sans-serif;
   position: absolute;
   text-align: center;
+  /*min-width: 30vw;
+  bottom: 280px;
+  height: 30vh;
+  */
 }
 
 #hero h1 {

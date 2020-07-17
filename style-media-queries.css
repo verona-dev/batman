@@ -29,10 +29,8 @@
     /*color: rgb(255, 199, 108);*/
   }
   .hero-text {
-    min-width: 30vw;
-    height: 30vh;
-    bottom: 280px;
-
+  /*  min-width: 30%;
+    height: 30%;*/
   }
   
 
@@ -99,10 +97,6 @@
    ██    ██   ██ ██████  ███████ ███████    ██    ███████
 */
 @media screen and (min-width: 750px) and (max-width: 1280px) {
-  .logo {
-  }
-  nav ul {
-  }
   nav ul li {
   flex-basis: 10%;
   }
@@ -131,7 +125,13 @@
    ██    ██   ██ ██████  ███████ ███████    ██    ███████
 */
 @media screen and (max-width: 1280px) {
-
+  html {
+    overflow: scroll;
+  }
+  body {
+    overflow: hidden;
+  }
+  
   header,
   nav,
   nav ul,
@@ -182,6 +182,22 @@
     font-size: 0.9rem;
   }
 
+  .hero-text {
+    height: 20%;
+    max-height: 20%;
+  }
+  #hero {
+    background-attachment: scroll;
+  }
+  #hero h1 {
+    font-size: 4rem;
+  }
+
+  #hero h2 {
+    font-size: 1.5rem;
+  }
+  
+  
   /*
    █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
   ██   ██ ████   ██ ██      ██   ██ ██    ██ ██   ██ ██
@@ -312,14 +328,6 @@
 ██      ██  ██████  ██████  ██ ███████ ███████
 */
 @media screen and (max-width: 750px) {
-  html {
-    overflow: scroll;
-  }
-  
-  body {
-    overflow: hidden;
-  }
-
   .logo {
     /*background-color: aquamarine;*/
   }
@@ -329,7 +337,7 @@
     width: 70%;
   }*/
   #hero {
-    background-attachment: local;
+    /*background-attachment: local;*/
   }
 
 /*  .hero-text {
@@ -337,13 +345,13 @@
     height: 25vh;
   }*/
 
-  #hero h1 {
+/*  #hero h1 {
     font-size: 4rem;
   }
 
   #hero h2 {
     font-size: 1.5rem;
-  }
+  }*/
 
   h3 {
     font-size: 2.5rem;
