@@ -29,12 +29,14 @@
     /*color: rgb(255, 199, 108);*/
   }
   .hero-text {
-    min-width: 30%;
-    height: 30%;
+    height: 25%;
+    max-width: 35%;
   }
-/*  #hero h2 {
-    height: 60px;
-  }*/
+  #hero h1 {
+    padding: 10px 20px 0;
+  }
+  #hero h2 {
+  }
 
   /*
    ██████   █████  ██      ██      ███████ ██████  ██    ██
@@ -98,9 +100,19 @@
    ██    ██   ██ ██   ██ ██      ██         ██         ██
    ██    ██   ██ ██████  ███████ ███████    ██    ███████
 */
-@media screen and (min-width: 750px) and (max-width: 1280px) {
+@media screen and (min-width: 750px) and (max-width: 1280px) {  
   nav ul li {
   flex-basis: 10%;
+  }
+  .hero-text {
+    height: 20%;
+    max-width: 35%;
+  }
+  #hero h1 {
+    padding: 0 20px;
+  }
+  #hero h2 {
+    padding-bottom: 15px;
   }
 }
 
@@ -193,11 +205,20 @@
     /* the image is glitching ----
     background-attachment: scroll;*/
   }
+  .hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
   #hero h1 {
     font-size: 4rem;
+    
   }
   #hero h2 {
     font-size: 1.5rem;
+    
   }
   
   
@@ -331,6 +352,20 @@
 ██      ██  ██████  ██████  ██ ███████ ███████
 */
 @media screen and (max-width: 750px) {
+  
+  #hero {
+  }
+  
+  .hero-text {
+    height: 150px;
+    max-width: 70%; 
+    padding: 0 20px 10px;
+  }
+  #hero h1 {
+  }
+  #hero h2 {
+    
+  }
   h3 {
     font-size: 2.5rem;
   }
