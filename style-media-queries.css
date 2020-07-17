@@ -29,10 +29,12 @@
     /*color: rgb(255, 199, 108);*/
   }
   .hero-text {
-  /*  min-width: 30%;
-    height: 30%;*/
+    min-width: 30%;
+    height: 30%;
   }
-  
+/*  #hero h2 {
+    height: 60px;
+  }*/
 
   /*
    ██████   █████  ██      ██      ███████ ██████  ██    ██
@@ -182,17 +184,18 @@
     font-size: 0.9rem;
   }
 
-  .hero-text {
+/*  .hero-text {
     height: 20%;
     max-height: 20%;
-  }
+  }*/
   #hero {
-    background-attachment: scroll;
+    background-attachment: local;
+    /* the image is glitching ----
+    background-attachment: scroll;*/
   }
   #hero h1 {
     font-size: 4rem;
   }
-
   #hero h2 {
     font-size: 1.5rem;
   }
@@ -328,31 +331,6 @@
 ██      ██  ██████  ██████  ██ ███████ ███████
 */
 @media screen and (max-width: 750px) {
-  .logo {
-    /*background-color: aquamarine;*/
-  }
-
-  /*  .logo-list {
-    background-color: aqua;
-    width: 70%;
-  }*/
-  #hero {
-    /*background-attachment: local;*/
-  }
-
-/*  .hero-text {
-    min-width: 50vw;
-    height: 25vh;
-  }*/
-
-/*  #hero h1 {
-    font-size: 4rem;
-  }
-
-  #hero h2 {
-    font-size: 1.5rem;
-  }*/
-
   h3 {
     font-size: 2.5rem;
   }
@@ -360,6 +338,7 @@
   /*.boxes {
     margin: 0;
    }*/
+   
   .feature {
     flex-basis: 80%;
   }
