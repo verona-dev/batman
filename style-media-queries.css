@@ -114,6 +114,16 @@
   #hero h2 {
     padding-bottom: 15px;
   }
+  #movies::before,
+  #actors::before,
+  #gallery::before {
+    height: 12vh;
+    margin-top: -12vh;
+  }
+  .wrappers {
+    height: 88vh;
+  }
+  
 }
 
 
@@ -223,37 +233,12 @@
   
   
   /*
-   █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
-  ██   ██ ████   ██ ██      ██   ██ ██    ██ ██   ██ ██
-  ███████ ██ ██  ██ ██      ███████ ██    ██ ██████  ███████
-  ██   ██ ██  ██ ██ ██      ██   ██ ██    ██ ██   ██      ██
-  ██   ██ ██   ████  ██████ ██   ██  ██████  ██   ██ ███████
-  */
-  #movies::before,
-  #actors::before,
-  #gallery::before {
-    height: 12vh;
-    margin-top: -12vh;
-  }
-
-  /*  #footer::before {
-    content: '';
-    display: block;
-    height: -70px;
-    margin-top: -70px;
-    visibility: hidden;
-  }*/
-  
-  /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
   ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
   ██  █  ██ ██████  ███████ ██████  ██████  █████   ██████  ███████
   ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
    ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
   */
-  .wrappers {
-    height: 88vh;
-  }
 
   .actors-to-gallery {
     background-position: left;
@@ -353,13 +338,30 @@
 */
 @media screen and (max-width: 750px) {
   
+  header,
+  nav,
+  nav ul,
+  .logo-link,
+  .logo
+   {
+    height: 80px;
+  }
+  nav ul li {
+  line-height: 80px;
+  }
+  
   #hero {
+    height: 1000px;
+    /*pointer-events: none;*/
+    /*cursor: default;*/
+    /*position: relative;*/
   }
   
   .hero-text {
     height: 150px;
     max-width: 70%; 
     padding: 0 20px 10px;
+    
   }
   #hero h1 {
   }
@@ -373,14 +375,42 @@
   /*.boxes {
     margin: 0;
    }*/
+   .feature {
+     flex-basis: 80%;
+   }
    
-  .feature {
-    flex-basis: 80%;
-  }
-
-  .feature3 {
-    margin-top: 150px;
-    /*    margin-top: 100px;
-    margin-bottom: 200px;*/
-  }
+   .feature3 {
+     margin-top: 150px;
+     /*    margin-top: 100px;
+     margin-bottom: 200px;*/
+   }
+   
+   /*
+ █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
+██   ██ ████   ██ ██      ██   ██ ██    ██ ██   ██ ██
+███████ ██ ██  ██ ██      ███████ ██    ██ ██████  ███████
+██   ██ ██  ██ ██ ██      ██   ██ ██    ██ ██   ██      ██
+██   ██ ██   ████  ██████ ██   ██  ██████  ██   ██ ███████
+*/
+   #movies::before,
+   #actors::before,
+   #gallery::before {
+     content: '';
+     display: block;
+     height: 80px;
+     margin-top: -80px;
+     visibility: hidden;
+   }
+   .wrappers {
+     border: 12px solid whitesmoke;
+     height: 280px;
+     width: 100%;
+   }
+   .hero-to-movies,
+   .movies-to-actors, {
+     background-repeat: no-repeat;
+     background-size: 180% 100%;
+     background-position: bottom;
+     background-attachment: fixed;
+   }
 }
