@@ -23,17 +23,17 @@
     height: 700px;
     background-attachment: scroll;
     background-image: linear-gradient(rgba(68, 64, 64, 0.6),
-    rgba(0, 0, 0, 0.4)),
-    url(img/batman-hero.jpg);
+        rgba(0, 0, 0, 0.4)),
+      url(img/batman-hero.jpg);
     background-size: 700px 100%;
     background-repeat: no-repeat;
     background-position: top;
     /*background-attachment: fixed; --> makes image glitch */
-    
     /*pointer-events: none;*/
     /*cursor: default;*/
     /*position: relative;*/
   }
+
   #bat-video {
     display: none;
   }
@@ -42,11 +42,10 @@
     background-color: rgba(93, 145, 214, 0.5);
     background-color: rgba(114, 169, 226, 0.3);
     background-color: rgba(123, 157, 201, 0.5);
-/*    bottom: 40%;
+    /*    bottom: 40%;
     height: 150px;*/
     top: 35%;
     height: 130px;
-    
     /*max-width: 70%;*/
     padding: 0 10px 10px;
     position: relative;
@@ -57,29 +56,28 @@
   }
 
   #hero h2 {
-      font-weight: 400;
-      padding-top: 10px;
+    font-weight: 400;
+    padding-top: 10px;
   }
 
   h3 {
     font-size: 1.5rem;
   }
-  
+
   .feature p {
     font-size: 1.2rem;
     padding: 0 15px;
   }
-  
-    .picture {
-      height: 250px;
-      width: 350px;
+
+  .picture {
+    height: 250px;
+    width: 350px;
   }
-  
+
   /*  .actors .feature .picture {
     height: 200px;
     width: 320px;
   }*/
-
   /*
  █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
 ██   ██ ████   ██ ██      ██   ██ ██    ██ ██   ██ ██
@@ -96,7 +94,7 @@
     margin-top: -80px;
     visibility: hidden;
   }
-  
+
   /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
   ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
