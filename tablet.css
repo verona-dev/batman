@@ -96,15 +96,11 @@
   }
 
   .mobile-box {
-    background-color: burlywood;
-    text-align: center;
-    /*min-width: 500px;*/
-    /*min-width: 400px;*/
+    margin-bottom: 80px;
   }
 
   .mobile-box img {
-      width: 100%;
-    /*display: block;*/
+    width: 100%;
   }
 
   .mobile-box span {
@@ -113,7 +109,7 @@
     height: 10vh;
   }
 
- /*
+  /*
  ███████  ██████   ██████  ████████ ███████ ██████
  ██      ██    ██ ██    ██    ██    ██      ██   ██
  █████   ██    ██ ██    ██    ██    █████   ██████
@@ -121,6 +117,5 @@
  ██       ██████   ██████     ██    ███████ ██   ██
  */
   .footer-mobile-wrapper {
-    /*height: 400px;*/
   }
 }

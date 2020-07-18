@@ -144,8 +144,6 @@
 
   .mobile-container {
     background-color: rgb(38, 38, 38);
-    /*height: 2200px;*/
-    
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -153,6 +151,10 @@
 
   .mobile-box {
     text-align: center;
+      border: 10px solid whitesmoke;
+  }
+  .mobile-box a {
+    text-decoration: none;
   }
   
   .mobile-box img {
@@ -162,8 +164,6 @@
   .mobile-box span {
     background-color: rgb(253, 227, 17);
     color: rgb(38, 38, 38);
-    height: 60px;
-    /*border: 5px solid whitesmoke;*/
   }
 
 

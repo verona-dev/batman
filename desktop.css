@@ -339,10 +339,11 @@
   */
   .copyright {
     font-family: 'Cormorant', sans-serif;
-    cursor: default;
     /*background-color: coral;*/
     position: relative;
     top: 50px;
+    text-decoration: none;
+    display: inline-block;
   }
   
   /*
