@@ -50,7 +50,16 @@
     ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
      ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
     */
-  
+    .wrappers {
+      height: 92vh;
+      /*width: 100%;*/
+    }
+    .hero-to-movies,
+    .movies-to-actors,
+    .actors-to-gallery {
+      background-attachment: fixed;
+    }
+    
     .hero-to-movies {
       background-size: 100vw 110%;
     }
@@ -114,5 +123,483 @@
   .box:hover>img {
     width: 100%;
     height: 100%;
+  }
+  
+  /*
+  ███████  ██████   ██████  ████████ ███████ ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  █████   ██    ██ ██    ██    ██    █████   ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  ██       ██████   ██████     ██    ███████ ██   ██
+  */
+  #footer {
+    width: 100%;
+    height: 100vh;
+    /*  overflow: hidden;
+    box-sizing: border-box;*/
+  }
+  
+  .footer-wrapper {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+  }
+  
+  /*
+  ███████  ██████   ██████  ████████ ███████ ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  █████   ██    ██ ██    ██    ██    █████   ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  ██       ██████   ██████     ██    ███████ ██   ██
+  */
+  /*
+  ██ ███    ███  ██████
+  ██ ████  ████ ██
+  ██ ██ ████ ██ ██   ███
+  ██ ██  ██  ██ ██    ██
+  ██ ██      ██  ██████
+  */
+  .footer-img {
+    height: 60vh;
+    width: 100%;
+    background-image: url(img/wrapper/rain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    grid-column: 1/4;
+  }
+  
+  /*
+  ███████  ██████   ██████  ████████ ███████ ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  █████   ██    ██ ██    ██    ██    █████   ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  ██       ██████   ██████     ██    ███████ ██   ██
+  */
+  /*
+   █████  ██████  ██████  ██████  ███████ ███████ ███████
+  ██   ██ ██   ██ ██   ██ ██   ██ ██      ██      ██
+  ███████ ██   ██ ██   ██ ██████  █████   ███████ ███████
+  ██   ██ ██   ██ ██   ██ ██   ██ ██           ██      ██
+  ██   ██ ██████  ██████  ██   ██ ███████ ███████ ███████
+  */
+  .footer-address {
+    background-color: black;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    overflow: hidden;
+    /*transition: transform 2s;*/
+    transition: background-color 0s ease-in-out;
+  }
+  
+  .address-logo {
+    height: 100%;
+    background-image: url(img/logo/footer-logo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: center;
+    transition: transform 2s;
+    position: relative;
+    /*  visibility:visible;
+    opacity: 1;
+    transition: opacity 3s linear;*/
+    /*transition: transform 2s;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;*/
+  }
+  
+  .address-map {
+    flex-basis: 150%;
+    margin: 20px 10px 20px 20px;
+  }
+  
+  .text-wrapper {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /*
+  ███████  ██████   ██████  ████████ ███████ ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  █████   ██    ██ ██    ██    ██    █████   ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  ██       ██████   ██████     ██    ███████ ██   ██
+  */
+  /*
+  ██████  ██████   ██████  ███████ ██ ██      ███████
+  ██   ██ ██   ██ ██    ██ ██      ██ ██      ██
+  ██████  ██████  ██    ██ █████   ██ ██      █████
+  ██      ██   ██ ██    ██ ██      ██ ██      ██
+  ██      ██   ██  ██████  ██      ██ ███████ ███████
+  */
+  .footer-bat-profile {
+    grid-column: 2/3;
+    overflow: hidden;
+    /*removed whitespace at bottom of page*/
+    /*background-image: linear-gradient(to right, black, white);*/
+  }
+  
+  .profile-logo {
+    height: 100%;
+    background-image: url(img/logo/footer-logo-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  /*
+  .footer-pic-wrapper {
+    opacity: 0;
+    transition: opacity 2s ease;
+    display: none;
+  }*/
+  /*
+  ███████  ██████   ██████  ████████ ███████ ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  █████   ██    ██ ██    ██    ██    █████   ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  ██       ██████   ██████     ██    ███████ ██   ██
+  */
+  /*
+  ██ ███    ██ ███████  ██████
+  ██ ████   ██ ██      ██    ██
+  ██ ██ ██  ██ █████   ██    ██
+  ██ ██  ██ ██ ██      ██    ██
+  ██ ██   ████ ██       ██████
+  */
+  .footer-info {
+    /*height: 40vh;*/
+    width: 100%;
+    background-color: white;
+    grid-column: 3/4;
+    overflow: hidden;
+  }
+  
+  .info-logo {
+    height: 100%;
+    width: 100%;
+    background-image: url(img/logo/footer-logo-3.svg);
+    background-repeat: no-repeat;
+    background-size: 240%;
+    background-position: center;
+    transition: transform 2s ease-out;
+  }
+  
+  /*
+  ███████  ██████   ██████ ██  █████  ██
+  ██      ██    ██ ██      ██ ██   ██ ██
+  ███████ ██    ██ ██      ██ ███████ ██
+       ██ ██    ██ ██      ██ ██   ██ ██
+  ███████  ██████   ██████ ██ ██   ██ ███████
+  */
+  .social-logo {
+    /*display: block;*/
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+  }
+  
+  .facebook {
+    position: relative;
+    /*padding-bottom: 3px;*/
+  }
+  
+  .twitter {
+    transition: transform 1.5s;
+  }
+  
+  /*
+   ██████  ██████  ██████  ██    ██ ██████  ██  ██████  ██   ██ ████████
+  ██      ██    ██ ██   ██  ██  ██  ██   ██ ██ ██       ██   ██    ██
+  ██      ██    ██ ██████    ████   ██████  ██ ██   ███ ███████    ██
+  ██      ██    ██ ██         ██    ██   ██ ██ ██    ██ ██   ██    ██
+   ██████  ██████  ██         ██    ██   ██ ██  ██████  ██   ██    ██
+  */
+  .copyright {
+    font-family: 'Cormorant', sans-serif;
+    cursor: default;
+    /*background-color: coral;*/
+    position: relative;
+    top: 50px;
+  }
+  
+  /*
+  ███████  ██████   ██████  ████████ ███████ ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  █████   ██    ██ ██    ██    ██    █████   ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  ██       ██████   ██████     ██    ███████ ██   ██
+  */
+  /*
+  ██████  ██████   █████   ██████ ██ ████████ ██    ██
+  ██    ██ ██   ██ ██   ██ ██      ██    ██     ██  ██
+  ██    ██ ██████  ███████ ██      ██    ██      ████
+  ██    ██ ██      ██   ██ ██      ██    ██       ██
+  ██████  ██      ██   ██  ██████ ██    ██       ██
+  */
+  .address-map,
+  .address-text,
+  .footer-pic-wrapper,
+  .social-ul,
+  .copyright {
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+  }
+  
+  .social-logo,
+  .follow-b {
+    opacity: 0.7;
+    /*.social-list h5 = removed h5 ----*/
+  }
+  
+  /*
+  ██   ██  ██████  ██    ██ ███████ ██████
+  ██   ██ ██    ██ ██    ██ ██      ██   ██
+  ███████ ██    ██ ██    ██ █████   ██████
+  ██   ██ ██    ██  ██  ██  ██      ██   ██
+  ██   ██  ██████    ████   ███████ ██   ██
+  */
+  /*
+   ██████  ██████   █████   ██████ ██ ████████ ██    ██
+  ██    ██ ██   ██ ██   ██ ██      ██    ██     ██  ██
+  ██    ██ ██████  ███████ ██      ██    ██      ████
+  ██    ██ ██      ██   ██ ██      ██    ██       ██
+   ██████  ██      ██   ██  ██████ ██    ██       ██
+  */
+  .footer-address:hover .address-map,
+  .footer-address:hover .address-text,
+  .footer-bat-profile:hover .footer-pic-wrapper,
+  .footer-info:hover .social-ul,
+  .footer-info:hover .copyright,
+  .follow-b:hover {
+    opacity: 1;
+  }
+  
+  .social-logo:hover,
+  .social-list:hover .social-logo {
+    opacity: 1;
+    font-weight: 500;
+    font-size: 26px;
+    /*.social-list:hover h5 -- removed h5 */
+  }
+  
+  /*
+  ██   ██  ██████  ██    ██ ███████ ██████
+  ██   ██ ██    ██ ██    ██ ██      ██   ██
+  ███████ ██    ██ ██    ██ █████   ██████
+  ██   ██ ██    ██  ██  ██  ██      ██   ██
+  ██   ██  ██████    ████   ███████ ██   ██
+  */
+  /*
+  ███████  ██████   ██████  ████████ ███████ ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  █████   ██    ██ ██    ██    ██    █████   ██████
+  ██      ██    ██ ██    ██    ██    ██      ██   ██
+  ██       ██████   ██████     ██    ███████ ██   ██
+  */
+  .footer-info:hover a {
+    background-color: rgb(252, 243, 201);
+    color: rgb(38, 38, 38);
+  }
+  
+  /*
+  ██   ██  ██████  ██    ██ ███████ ██████
+  ██   ██ ██    ██ ██    ██ ██      ██   ██
+  ███████ ██    ██ ██    ██ █████   ██████
+  ██   ██ ██    ██  ██  ██  ██      ██   ██
+  ██   ██  ██████    ████   ███████ ██   ██
+  */
+  /*
+   █████  ██████  ██████  ██████  ███████ ███████ ███████
+  ██   ██ ██   ██ ██   ██ ██   ██ ██      ██      ██
+  ███████ ██   ██ ██   ██ ██████  █████   ███████ ███████
+  ██   ██ ██   ██ ██   ██ ██   ██ ██           ██      ██
+  ██   ██ ██████  ██████  ██   ██ ███████ ███████ ███████
+  */
+  .footer-address:hover {
+    background-color: rgb(252, 243, 201);
+    display: flex;
+    justify-content: center;
+    /*flex-direction: column;*/
+    /*transition: background-color 6s ease 0s;*/
+  }
+  
+  /*---  Logo on RETURN----*/
+  .footer-address:hover .address-logo {
+    transform: translateX(-500px) rotate(390deg);
+  }
+  
+  .footer-address:hover .address-map {
+    background-image: url(img/map.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  /*
+  ██   ██  ██████  ██    ██ ███████ ██████
+  ██   ██ ██    ██ ██    ██ ██      ██   ██
+  ███████ ██    ██ ██    ██ █████   ██████
+  ██   ██ ██    ██  ██  ██  ██      ██   ██
+  ██   ██  ██████    ████   ███████ ██   ██
+  */
+  /*
+  ██████  ██████   ██████  ███████ ██ ██      ███████
+  ██   ██ ██   ██ ██    ██ ██      ██ ██      ██
+  ██████  ██████  ██    ██ █████   ██ ██      █████
+  ██      ██   ██ ██    ██ ██      ██ ██      ██
+  ██      ██   ██  ██████  ██      ██ ███████ ███████
+  */
+  .footer-bat-profile:hover .profile-logo {
+    display: none;
+  }
+  
+  .footer-bat-profile:hover .footer-pic-wrapper {
+    display: inline-block;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    /* display: inline-block;*/
+  }
+  
+  .footer-bat-profile:hover .profile-pic {
+    background-image: url(img/car.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+  
+  /*
+  ██   ██  ██████  ██    ██ ███████ ██████
+  ██   ██ ██    ██ ██    ██ ██      ██   ██
+  ███████ ██    ██ ██    ██ █████   ██████
+  ██   ██ ██    ██  ██  ██  ██      ██   ██
+  ██   ██  ██████    ████   ███████ ██   ██
+  */
+  /*
+  ██ ███    ██ ███████  ██████
+  ██ ████   ██ ██      ██    ██
+  ██ ██ ██  ██ █████   ██    ██
+  ██ ██  ██ ██ ██      ██    ██
+  ██ ██   ████ ██       ██████
+  */
+  .footer-info:hover {
+    background-color: rgb(252, 243, 201);
+  }
+  
+  .footer-info:hover .info-logo {
+    display: inline;
+    background-size: 100%;
+    transform: translateY(300px);
+  }
+  
+  .footer-info:hover .info-text {
+    width: 100%;
+    display: inline;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /*
+  ██   ██  ██████  ██    ██ ███████ ██████
+  ██   ██ ██    ██ ██    ██ ██      ██   ██
+  ███████ ██    ██ ██    ██ █████   ██████
+  ██   ██ ██    ██  ██  ██  ██      ██   ██
+  ██   ██  ██████    ████   ███████ ██   ██
+  */
+  /*
+  ███████  ██████   ██████ ██  █████  ██
+  ██      ██    ██ ██      ██ ██   ██ ██
+  ███████ ██    ██ ██      ██ ███████ ██
+       ██ ██    ██ ██      ██ ██   ██ ██
+  ███████  ██████   ██████ ██ ██   ██ ███████
+  */
+  .footer-info:hover .social-wrapper {
+    /*background-color: darkorchid;*/
+    height: 100%;
+    width: 100%;
+  }
+  
+  .footer-info:hover .follow-b {
+    /*background-color: darkgreen;*/
+  }
+  
+  .footer-info:hover .social-ul {
+    /*background-color: red;*/
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-info:hover .social-list {
+    /*background-color: darkkhaki;*/
+    list-style: none;
+    width: 150px;
+    /*position: absolute;
+    flex-basis: 20%;*/
+  }
+  
+  /*
+  ██   ██  ██████  ██    ██ ███████ ██████
+  ██   ██ ██    ██ ██    ██ ██      ██   ██
+  ███████ ██    ██ ██    ██ █████   ██████
+  ██   ██ ██    ██  ██  ██  ██      ██   ██
+  ██   ██  ██████    ████   ███████ ██   ██
+  */
+  /*
+  ███████  ██████   ██████ ██  █████  ██
+  ██      ██    ██ ██      ██ ██   ██ ██
+  ███████ ██    ██ ██      ██ ███████ ██
+       ██ ██    ██ ██      ██ ██   ██ ██
+  ███████  ██████   ██████ ██ ██   ██ ███████
+  */
+  /*
+  ██       ██████   ██████   ██████
+  ██      ██    ██ ██       ██    ██
+  ██      ██    ██ ██   ███ ██    ██
+  ██      ██    ██ ██    ██ ██    ██
+  ███████  ██████   ██████   ██████
+  */
+  .footer-info:hover .a-text {
+    /*background-color: aqua;*/
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    height: 80px;
+    line-height: 15px;
+  }
+  
+  .a-text:hover .facebook {
+    background-color: rgba(59, 89, 152, 0.8);
+    transform: scale(1.2);
+    border-radius: 50%;
+  }
+  
+  .a-text:hover .twitter,
+  .twitter:hover {
+    transform: rotate(390deg);
+    /*background: linear-gradient(45deg, #66757f, #00ACEE, #36D8FF, #f5f8fa, #ffffff);*/
+  }
+  
+  .a-text:hover .instagram {
+    transform: scale(1.2);
+    border-radius: 17px;
+    background: radial-gradient(circle at 30% 107%, rgba(252, 243, 150, 0.7) 0%, rgba(252, 243, 150, 0.7) 5%, rgba(252, 89, 73, 0.7) 45%, rgba(214, 36, 159, 0.7) 60%, rgba(40, 90, 235, 0.7) 90%);
+    /*  background: radial-gradient(circle at 30% 107%, rgb(252, 243, 150) 0%, rgb(252, 243, 150) 5%, rgb(252, 89, 73) 45%, rgb(214, 36, 159) 60%, rgb(40, 90, 235) 90%);*/
   }
 }
