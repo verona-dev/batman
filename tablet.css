@@ -12,12 +12,18 @@
 
   .hero-text {
     height: 20%;
-    max-width: 35%;
+   /*  
+   width: 55%;
+   max-width: 40%;
+   min-width: 20vw;
+  */
     top: 12vh;
   }
+
   #hero {
     background-attachment: local;
   }
+
   #hero h1 {
     padding: 0 20px;
   }
@@ -25,7 +31,7 @@
   #hero h2 {
     padding-bottom: 15px;
   }
-  
+
   /*
    █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
   ██   ██ ████   ██ ██      ██   ██ ██    ██ ██   ██ ██
@@ -47,17 +53,18 @@
   ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
    ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
   */
-
   .wrappers {
     height: 77vh;
   }
-  
+
   .hero-to-movies {
     background-size: 190% 100%;
   }
+
   .movies-to-actors {
     background-size: 200% 100%;
   }
+
   .actors-to-gallery {
     background-size: 200% 100%;
   }

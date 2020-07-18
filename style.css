@@ -150,7 +150,8 @@ user-select: none;
   font-family: 'Lato', sans-serif;
   position: absolute;
   text-align: center;
-  text-shadow: 4px 4px black;
+  text-shadow: 6px 6px 4px black;
+  
   /*min-width: 30vw;
   padding: 0 20px;
   bottom: 280px;
