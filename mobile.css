@@ -23,29 +23,27 @@
     height: 1000px;
     background-attachment: fixed;
     
-    
-    -webkit-touch-callout: none;
-    /* iOS Safari */
-    -webkit-user-select: none;
-    /* Safari */
-    -khtml-user-select: none;
-    /* Konqueror HTML */
-    -moz-user-select: none;
-    /* Old versions of Firefox */
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
-    user-select: none;
+    background-image: linear-gradient(rgba(68, 64, 64, 0.6),
+    rgba(0, 0, 0, 0.4)),
+    url(img/batman-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
     
     /*pointer-events: none;*/
     /*cursor: default;*/
     /*position: relative;*/
+  }
+  #bat-video {
+    display: none;
   }
 
   .hero-text {
     height: 150px;
     max-width: 70%;
     padding: 0 20px 10px;
-    
+    top: 40%;
   }
 
   #hero h1 {}
@@ -53,7 +51,7 @@
   #hero h2 {}
 
   h3 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   /*

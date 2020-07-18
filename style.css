@@ -36,8 +36,7 @@ header,
 nav,
 nav ul,
 .logo-link,
-.logo
- {
+.logo {
   height: 8vh;
 }
 
@@ -58,10 +57,10 @@ header {
   overflow: hidden;
   */
 }
-.logo {
-    width: 100px;
-}
 
+.logo {
+  width: 100px;
+}
 
 nav {
   background-color: rgba(38, 38, 38, 0.85);
@@ -72,7 +71,6 @@ nav ul {
   /*background-color: aqua;*/
   width: 50vw;
   margin: 0 auto;
-  
   display: flex;
   justify-content: center;
   text-align: center;
@@ -94,7 +92,7 @@ nav ul li a {
   /* clickable on outside text */
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
   text-transform: capitalize;
   /*text-align: center;*/
@@ -108,19 +106,28 @@ nav ul li a {
 ██   ██ ██      ██   ██ ██    ██
 ██   ██ ███████ ██   ██  ██████
 */
+
+
 #hero {
-  height: 130vh;
+display: flex;
+justify-content: center;
+
+-webkit-touch-callout: none;
+/* iOS Safari */
+-webkit-user-select: none;
+/* Safari */
+-khtml-user-select: none;
+/* Konqueror HTML */
+-moz-user-select: none;
+/* Old versions of Firefox */
+-ms-user-select: none;
+/* Internet Explorer/Edge */
+user-select: none;
+}
+
+#bat-video {
   width: 100%;
-  background-image: linear-gradient(rgba(68, 64, 64, 0.6),
-      rgba(0, 0, 0, 0.4)),
-    url(img/batman-hero.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-itrems: center;
+  height: 100%;
 }
 
 /*
@@ -131,18 +138,19 @@ nav ul li a {
 ██       ██████  ██   ████    ██
 */
 .hero-text {
-  background-color: rgba(114, 169, 226, 0.1);
-  background-color: rgba(245, 245, 245, 0.1);
+  background-color: rgba(114, 169, 226, 0.3);
+  background-color: rgba(123, 157, 201, 0.5);
+  background-color: rgba(93, 145, 214, 0.5);
+  background-color: rgba(245, 245, 245, 0.25);
   border: 5px solid rgb(253, 227, 17);
-  bottom: 200px;
-  color: rgb(253, 227, 17);
+  /*bottom: 200px;*/
   color: whitesmoke;
+  color: rgb(253, 227, 17);
   cursor: default;
   font-family: 'Lato', sans-serif;
   position: absolute;
   text-align: center;
-  
-   
+  text-shadow: 4px 4px black;
   /*min-width: 30vw;
   padding: 0 20px;
   bottom: 280px;
@@ -161,15 +169,16 @@ nav ul li a {
   font-size: 2rem;
   font-weight: 300;
   /*padding-bottom: 60px;*/
- /*padding-bottom: 45px;*/
+  /*padding-bottom: 45px;*/
 }
 
 .movies h2,
 .actors h2,
 #gallery h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 4em;
+  font-size: 3rem;
   padding: 80px 0;
+  text-transform: uppercase;
   text-align: center;
   width: 100%;
   /*
@@ -188,16 +197,14 @@ nav ul li a {
 
 h3 {
   font-family: 'Oswald', sans-serif;
-  font-size: 2.5em;
+  font-size: 2rem;
   margin: 40px 0;
-
 }
 
 /*=== .social-h5 {
   background-color: chocolate;
   font-size: 22px;
   margin-top: 5px;} === */
-  
 p {
   line-height: 1.4em;
   margin-bottom: 10px;
@@ -254,6 +261,7 @@ p {
 
 .italics {
   font-style: italic;
+  display: inline;
 }
 
 /*
@@ -329,7 +337,6 @@ p {
   height: 300px;
   width: 500px;
 }*/
-
 /*
 ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
 ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██

@@ -26,8 +26,15 @@
   }
 
   .hero-text {
-    height: 25%;
+    height: 30%;
     max-width: 35%;
+    top: 8vh;
+    /*bottom: 200px;*/
+  }
+  #hero {
+
+  }
+  #bat-video {
   }
 
   #hero h1 {
