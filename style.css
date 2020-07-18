@@ -226,7 +226,9 @@ p {
   text-align: center;
 }
 
-.box>span {
+.box>span,
+.mobile-box>span {
+  display: block;
   font-family: 'Cormorant', sans-serif;
   font-size: 2em;
   font-weight: 500;
