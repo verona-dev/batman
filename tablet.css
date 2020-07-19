@@ -89,7 +89,6 @@
   .mobile-container {
     background-color: rgb(38, 38, 38);
     /*height: 2200px;*/
-    padding-bottom: 150px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
