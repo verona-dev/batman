@@ -47,10 +47,10 @@
 
 
   .hero-text {
-    background-color: rgba(93, 145, 214, 0.5);
+    /*background-color: rgba(93, 145, 214, 0.5);
     background-color: rgba(114, 169, 226, 0.3);
     background-color: rgba(123, 157, 201, 0.5);
-    /*    bottom: 40%;
+        bottom: 40%;
     height: 150px;*/
     top: 35%;
     height: 130px;
