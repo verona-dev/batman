@@ -1,374 +1,153 @@
-:root {
-  font-size: 16px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /*outline: 1px solid red;*/
-}
-
-html {
-  scroll-behavior: smooth;
-  cursor: default;
-}
-
-body {
-  font-family: 'Raleway', sans-serif;
-  width: 100%;
-  max-width: 100%;
-  /*  height: 100%;*/
-}
-
-html, body {
-  /*height: 100%;*/
-}
-
 /*
-███    ██  █████  ██    ██
-████   ██ ██   ██ ██    ██
-██ ██  ██ ███████ ██    ██
-██  ██ ██ ██   ██  ██  ██
-██   ████ ██   ██   ████
+███    ███  ██████  ██████  ██ ██      ███████
+████  ████ ██    ██ ██   ██ ██ ██      ██
+██ ████ ██ ██    ██ ██████  ██ ██      █████
+██  ██  ██ ██    ██ ██   ██ ██ ██      ██
+██      ██  ██████  ██████  ██ ███████ ███████
 */
-header,
-nav,
-nav ul,
-.logo-link,
-.logo {
-  height: 8vh;
-}
+@media screen and (max-width: 480px) {
 
-header {
-  position: fixed;
-  width: 100%;
-  z-index: 10;
-}
+  header,
+  nav,
+  nav ul,
+  .logo-link,
+  .logo {
+    height: 80px;
+  }
 
-.logo-link {
-  width: 100%;
-  /*background-color: greenyellow;*/
-  display: inline-block;
+  nav ul li {
+    line-height: 80px;
+  }
+
+  #hero {
+    height: 700px;
+    background-attachment: scroll;
+    background-image: linear-gradient(rgba(68, 64, 64, 0.6),
+        rgba(0, 0, 0, 0.4)),
+      url(img/batman-hero.jpg);
+    background-size: 700px 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    /*background-attachment: fixed; --> makes image glitch */
+    /*pointer-events: none;*/
+    /*cursor: default;*/
+    /*position: relative;*/
+  }
+
+  #bat-video {
+    display: none;
+  }
   /*
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  overflow: hidden;
+  ███████  ██████  ███    ██ ████████
+  ██      ██    ██ ████   ██    ██
+  █████   ██    ██ ██ ██  ██    ██
+  ██      ██    ██ ██  ██ ██    ██
+  ██       ██████  ██   ████    ██
   */
-}
 
-.logo {
-  width: 100px;
-}
 
-nav {
-  background-color: rgba(38, 38, 38, 0.85);
-  width: 100%;
-}
+  .hero-text {
+    background-color: rgba(93, 145, 214, 0.5);
+    background-color: rgba(114, 169, 226, 0.3);
+    background-color: rgba(123, 157, 201, 0.5);
+    /*    bottom: 40%;
+    height: 150px;*/
+    top: 35%;
+    height: 130px;
+    /*max-width: 70%;*/
+    padding: 0 10px 10px;
+    position: relative;
+  }
 
-nav ul {
-  /*background-color: aqua;*/
-  width: 50vw;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
+  #hero h1 {
+    padding-bottom: 10px;
+  }
 
-nav ul li {
-  display: inline-block;
-  /*puts them on same ROW, instead column */
-  line-height: 8vh;
-  /* same as parent's height; centers the content vertically */
-  list-style: none;
-  overflow: hidden;
-  position: relative;
-}
+  #hero h2 {
+    font-weight: 400;
+    padding-top: 10px;
+  }
+  .movies h2,
+  .actors h2,
+  #gallery h2 {
+    padding: 40px 0;
+  }
+  #gallery h2 {
+    padding-bottom: 80px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
 
-nav ul li a {
-  color: white;
-  display: block;
-  /* clickable on outside text */
-  font-family: 'Lato', sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  text-decoration: none;
-  text-transform: capitalize;
-  /*text-align: center;*/
-  min-width: 7vw;
-}
+  .feature p {
+    font-size: 1.2rem;
+    padding: 0 15px;
+  }
 
-/*
-██   ██ ███████ ██████   ██████
-██   ██ ██      ██   ██ ██    ██
-███████ █████   ██████  ██    ██
-██   ██ ██      ██   ██ ██    ██
-██   ██ ███████ ██   ██  ██████
-*/
-#hero {
-  display: flex;
-  justify-content: center;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  -khtml-user-select: none;
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-}
+  .picture {
+    height: 250px;
+    width: 350px;
+  }
 
-#bat-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/*
-███████  ██████  ███    ██ ████████
-██      ██    ██ ████   ██    ██
-█████   ██    ██ ██ ██  ██    ██
-██      ██    ██ ██  ██ ██    ██
-██       ██████  ██   ████    ██
-*/
-.hero-text {
-  background-color: rgba(114, 169, 226, 0.3);
-  background-color: rgba(123, 157, 201, 0.5);
-  background-color: rgba(93, 145, 214, 0.5);
-  background-color: rgba(245, 245, 245, 0.25);
-  border: 5px solid rgb(253, 227, 17);
-  /*bottom: 200px;*/
-  color: whitesmoke;
-  color: rgb(253, 227, 17);
-  cursor: default;
-  font-family: 'Lato', sans-serif;
-  position: absolute;
-  text-align: center;
-  text-shadow: 6px 6px 4px black;
-  /*min-width: 30vw;
-  padding: 0 20px;
-  bottom: 280px;
-  height: 30vh;
-  */
-}
-
-#hero h1 {
-  font-size: 7rem;
-  font-weight: 300;
-  /*padding-bottom: 45px;*/
-}
-
-#hero h2 {
-  color: inherit;
-  font-size: 2rem;
-  font-weight: 300;
-  /*padding-bottom: 60px;*/
-  /*padding-bottom: 45px;*/
-}
-
-.movies h2,
-.actors h2,
-#gallery h2 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 3rem;
-  text-transform: uppercase;
-  text-align: center;
-  width: 100%;
+  /*  .actors .feature .picture {
+    height: 200px;
+    width: 320px;
+  }*/
   /*
-  color: rgb(253, 227, 17);
-  border: solid whitesmoke4
-  border-width: 0 0 10px;
-  */
-}
-
-#gallery h2 {
-  background-color: rgb(38, 38, 38);
-  color: whitesmoke;
-  margin: 0;
-}
-
-h3 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
-  margin: 40px 0;
-}
-
-/*=== .social-h5 {
-  background-color: chocolate;
-  font-size: 22px;
-  margin-top: 5px;} === */
-p {
-  line-height: 1.4em;
-  margin-bottom: 10px;
-}
-
-.feature p {
-  font-size: 1.2em;
-}
-
-/*p {
-  font-size: 18px;
-  line-height: 32px;
-  margin-bottom: 14px;
-}*/
-.text-wrapper p {
-  /*background-color: coral;*/
-  font-family: 'Cormorant Upright', serif;
-  cursor: default;
-  font-size: 1.6em;
-  line-height: 1.2em;
-  text-align: center;
-}
-
-.box>span,
-.mobile-box>span,
-.mobile-box a span {
-  display: block;
-  font-family: 'Cormorant', sans-serif;
-  font-size: 2em;
-  font-weight: 500;
-  line-height: 2.6em;
-  text-align: center;
-}
-
-.address-text .address-manor {
-  font-style: italic;
-  font-size: 2.2em;
-  font-weight: 500;
-  line-height: 2.6em;
-}
-
-/*.address-text {
-  background-color: aquamarine;
-}*/
-.follow-b {
-  font-family: 'Cormorant', sans-serif;
-  cursor: default;
-  margin: 70px auto 0;
-  font-size: 2.4em;
-  font-weight: 500;
-  width: 300px;
-}
-
-.info-text {
-  font-family: 'Cormorant Upright', serif;
-}
-
-.italics {
-  font-style: italic;
-  display: inline;
-}
-
-/*
  █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
 ██   ██ ████   ██ ██      ██   ██ ██    ██ ██   ██ ██
 ███████ ██ ██  ██ ██      ███████ ██    ██ ██████  ███████
 ██   ██ ██  ██ ██ ██      ██   ██ ██    ██ ██   ██      ██
 ██   ██ ██   ████  ██████ ██   ██  ██████  ██   ██ ███████
 */
-#movies::before,
-#actors::before,
-#gallery::before {
-  content: '';
-  display: block;
-  height: 8vh;
-  margin-top: -8vh;
-  visibility: hidden;
-}
+  #movies::before,
+  #actors::before,
+  #gallery::before {
+    content: '';
+    display: block;
+    height: 80px;
+    margin-top: -80px;
+    visibility: hidden;
+  }
 
-#footer::before {
-  content: '';
-  display: block;
-  height: -70px;
-  margin-top: -70px;
-  visibility: hidden;
-}
-
-/*
-██████   ██████  ██   ██ ███████ ███████
-██   ██ ██    ██  ██ ██  ██      ██
-██████  ██    ██   ███   █████   ███████
-██   ██ ██    ██  ██ ██  ██           ██
-██████   ██████  ██   ██ ███████ ███████
-*/
-.movies {
-  background-color: rgba(219, 202, 180, 0.5);
-}
-
-.actors {
-  background-color: rgba(177, 174, 168, 0.5);
-}
-
-.boxes {
-  /*  ===   If add height, boxes will overlap   ===== */
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-content: center;
-}
-
-.feature {
-  height: 1200px;
-  position: relative;
-  /*<-- if navbar disappears, disable relative */
-  flex-basis: 20%;
-  text-align: center;
-  padding: 35px 35px 0;
-  margin-bottom: 50px;
   /*
-  margin-top: 50px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 25%;*/
-}
+  ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
+  ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
+  ██  █  ██ ██████  ███████ ██████  ██████  █████   ██████  ███████
+  ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
+   ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
+  */
+  .wrappers {
+    border: 12px solid whitesmoke;
+    height: 400px;
+    width: 100%;
+  }
 
-.picture {
-  height: 300px;
-  width: 400px;
-}
+  .hero-to-movies,
+  .movies-to-actors, {
+    /*background-size: 50% 100%;*/
+    /*background-position: bottom;*/
+    /*background-attachment: fixed;*/
+  }
 
-/*.actors .feature .picture {
-  height: 300px;
-  width: 500px;
-}*/
-/*
-██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
-██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
-██  █  ██ ██████  ███████ ██████  ██████  █████   ██████  ███████
-██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
-███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
-*/
-.wrappers {
-  border: 12px solid whitesmoke;
-}
+  /*
+  ██████   █████  ██      ██      ███████ ██████  ██    ██
+ ██       ██   ██ ██      ██      ██      ██   ██  ██  ██
+ ██   ███ ███████ ██      ██      █████   ██████    ████
+ ██    ██ ██   ██ ██      ██      ██      ██   ██    ██
+  ██████  ██   ██ ███████ ███████ ███████ ██   ██    ██
+ */
 
-.hero-to-movies,
-.movies-to-actors,
-.actors-to-gallery {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
+  .mobile-box {
+    margin-bottom: 40px;
+  }
 
-.hero-to-movies {
-  background-image: url(img/wrapper/bat-wings.jpg);
-  height: 100%;
-  width: 100%;
-}
-
-.movies-to-actors {
-  background-image: url(img/wrapper/city-window.jpg);
-  height: 100%;
-  width: 100%;
-}
-
-.actors-to-gallery {
-  background-image: url(img/wrapper/cartoon.jpg);
-  height: 100%;
-  width: 100%;
+  .mobile-box img {
+    width: 100%;
+  }
+  
+  .mobile-box a span {
+    line-height: 3.6rem;
+  }
 }
