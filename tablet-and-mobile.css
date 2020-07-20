@@ -243,12 +243,9 @@
 
   .mobile-copyright {
     /*background-color:  bisque;*/
-    /*display: block;*/
-    width: 100%;
     height: 40%;
-    margin: 0 auto;
-    /*    text-align: center;
-    */
+    /*margin: 0 auto;*/
+    width: 100%;
   }
 
   .mobile-a-copyright {
@@ -257,6 +254,7 @@
     font-family: 'Cormorant', sans-serif;
     text-decoration: none;
     font-size: 1.4rem;
+
   }
 
   .mobile-a-copyright p {
@@ -264,5 +262,6 @@
     display: inline;
     height: 100%;
   }
+  
   
 }
