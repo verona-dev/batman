@@ -192,6 +192,7 @@
 
   .footer-mobile-wrapper {
     /*background-color: blueviolet;*/
+    background-color: rgb(252, 243, 201);
     display: block;
     /*height: 500px;*/
     height: 80vh;
@@ -202,7 +203,6 @@
     /*background-color: blanchedalmond;*/
     display: block;
     height: 30%;
-    margin-top: 100px;
   }
 
   .footer-mobile-wrapper h4 {
@@ -246,8 +246,8 @@
     /*display: block;*/
     width: 100%;
     height: 40%;
-    /*    text-align: center;
     margin: 0 auto;
+    /*    text-align: center;
     */
   }
 
