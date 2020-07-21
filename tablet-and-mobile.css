@@ -56,18 +56,31 @@
     line-height: 12vh;
     width: 100%;
   }
-
+  nav ul li:active {
+    background-color: rgb(253, 227, 17);
+    color: rgb(38, 38, 38);
+    
+  }
   nav ul li a {
     font-size: 0.9rem;
   }
   nav ul li a:focus {
-    background-color: rgb(253, 227, 17);
   }
 
   /*  .hero-text {
     height: 20%;
     max-height: 20%;
   }*/
+  
+  /*
+██   ██ ███████ ██████   ██████
+██   ██ ██      ██   ██ ██    ██
+███████ █████   ██████  ██    ██
+██   ██ ██      ██   ██ ██    ██
+██   ██ ███████ ██   ██  ██████
+*/
+
+
   #hero {
     /*background-attachment: local;*/
     /* the image is glitching ----
