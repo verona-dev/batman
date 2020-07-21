@@ -13,32 +13,34 @@
   #hero {
     background-attachment: local;
   }
+  
+  #bat-video {
+    height: 400px;
+    margin-top: 100px;
+  }
+  
+  #hero-text {
+   position: absolute;
+   /*bottom: 20%;*/
+   bottom: 20%;
+  /*   top: 0;*/
+
+
+  }
 
   #hero h1 {
     padding: 0 20px;
+    font-size: 3rem;
+    letter-spacing: 1.4rem;
   }
 
   #hero h2 {
     padding-bottom: 15px;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.2rem;
   }
   
-  #bat-video {
-    height: 50vh;  
-    margin-top: 100px;
-    display: inline;
-    position: relative;
-  }
-  .hero-text {
-    height: 20%;
-    bottom: 50%;
-    position: absolute;
-    
-    /*top: 42vh;*/
-    
-    /*position: absolute;*/
-    
-
-  }
 
   /*
    █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████

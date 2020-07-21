@@ -44,12 +44,11 @@
   ██      ██    ██ ██  ██ ██    ██
   ██       ██████  ██   ████    ██
   */
-
-  .hero-text {
+  #hero-text {
     /*background-color: rgba(93, 145, 214, 0.5);
     background-color: rgba(114, 169, 226, 0.3);
     background-color: rgba(123, 157, 201, 0.5);
-        bottom: 40%;
+    bottom: 40%;
     height: 150px;*/
     top: 35%;
     height: 130px;
@@ -60,12 +59,17 @@
 
   #hero h1 {
     padding-bottom: 10px;
+    font-size: 3.2rem;
+    letter-spacing: 0.6rem;
   }
 
   #hero h2 {
     font-weight: 400;
-    padding-top: 10px;
+    font-size: 1rem;
+    word-spacing: 0.2rem;
   }
+  
+  
   .movies h2,
   .actors h2,
   #gallery h2 {
