@@ -120,6 +120,7 @@ nav ul li a {
   -ms-user-select: none;
   /* Internet Explorer/Edge */
   user-select: none;
+  width: 100%;
 }
 
 #bat-video {
@@ -135,7 +136,12 @@ nav ul li a {
 ██      ██    ██ ██  ██ ██    ██
 ██       ██████  ██   ████    ██
 */
+::selection {
+  background-color: rgb(253, 227, 17);
+}
+
 .hero-text {
+  background-color: aquamarine;;
   color: whitesmoke;
   color: rgb(253, 227, 17);
   cursor: default;
@@ -143,6 +149,12 @@ nav ul li a {
   position: absolute;
   text-align: center;
   text-shadow: 6px 6px 4px black;
+  text-transform: uppercase;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   /*min-width: 30vw;
   padding: 0 20px;
   bottom: 280px;
@@ -157,14 +169,24 @@ nav ul li a {
 
 #hero h1 {
   font-size: 7rem;
-  font-weight: 300;
+  /*font-weight: 300;*/
+  font-weight: bold;
+  letter-spacing: 1.8rem;
+  display: block;
   /*padding-bottom: 45px;*/
 }
 
 #hero h2 {
+  background-color:  bisque;;
   color: inherit;
+  display: block;
   font-size: 2rem;
   font-weight: 300;
+  margin: 0 auto;
+
+  letter-spacing: 0.6rem;
+  word-spacing: 0.4rem;
+  
   /*padding-bottom: 60px;*/
   /*padding-bottom: 45px;*/
 }
@@ -174,7 +196,6 @@ nav ul li a {
 #gallery h2 {
   font-family: 'Oswald', sans-serif;
   font-size: 3rem;
-  text-transform: uppercase;
   text-align: center;
   width: 100%;
   /*
@@ -182,6 +203,11 @@ nav ul li a {
   border: solid whitesmoke4
   border-width: 0 0 10px;
   */
+}
+
+.movies h2,
+.actors h2 {
+  background-color: rgba(252, 226, 16, 0.3);
 }
 
 #gallery h2 {
@@ -208,13 +234,10 @@ p {
 .feature p {
   font-size: 1.2em;
 }
-.read-more {
+.button {
   font-size: 1rem;
 }
 
-.source {
-  font-size: 0.8rem;
-}
 
 
 /*p {
@@ -361,6 +384,7 @@ p {
 .source.button {
   background-color: rgba(138, 134, 127, 0.7);
   width: 35%;
+  padding: 22px;
 }
 
 

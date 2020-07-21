@@ -60,6 +60,9 @@
   nav ul li a {
     font-size: 0.9rem;
   }
+  nav ul li a:focus {
+    background-color: rgb(253, 227, 17);
+  }
 
   /*  .hero-text {
     height: 20%;
@@ -80,10 +83,13 @@
 
   #hero h1 {
     font-size: 3rem;
+    letter-spacing: 1.4rem;
   }
 
   #hero h2 {
     font-size: 1rem;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.2rem;
   }
 
   /*
