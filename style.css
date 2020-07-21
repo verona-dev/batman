@@ -106,9 +106,8 @@ nav ul li a {
 ██   ██ ███████ ██   ██  ██████
 */
 #hero {
-  background-color: chocolate;
-  display: flex;
-  justify-content: center;
+  /*background-color: chocolate;*/
+  position: relative;
   width: 100%;
   
   -webkit-touch-callout: none;
@@ -122,6 +121,9 @@ nav ul li a {
   -ms-user-select: none;
   /* Internet Explorer/Edge */
   user-select: none;
+  
+  /*  display: flex;
+  justify-content: center;*/
 }
 
 #bat-video {
@@ -141,18 +143,23 @@ nav ul li a {
 }
 
 #hero-text {
-  background-color: aquamarine;
+  /*background-color: aquamarine;*/
+  bottom: 0;
   color: whitesmoke;
   color: rgb(253, 227, 17);
   cursor: default;
   font-family: 'Lato', sans-serif;
+  height: 25%;
+  position: absolute;
   text-align: center;
   text-shadow: 6px 6px 4px black;
   text-transform: uppercase;
+  width: 100%;
   
-  display: flex;
+
+
   
-  /*------------------position: absolute;----------------------*/
+
   /*min-width: 30vw;
   padding: 0 20px;
   bottom: 280px;
@@ -171,11 +178,11 @@ nav ul li a {
 }
 
 #hero h1 {
-  background-color: blue;
+  /*background-color: blue;*/
 }
 
 #hero h2 {
-  background-color: bisque;
+  /*background-color: bisque;*/
 }
 
 .movies h2,
