@@ -9,23 +9,20 @@
   nav ul li {
     flex-basis: 15%;
   }
-  
+
   #hero {
     /*background-attachment: local;*/
   }
-  
+
   #bat-video {
     height: 20%;
     margin-top: 100px;
   }
-  
+
   #hero-text {
-   
-   /*bottom: 20%;*/
-   /*bottom: 20%;*/
-  /*   top: 0;*/
-
-
+    /*bottom: 20%;*/
+    /*bottom: 20%;*/
+    /*   top: 0;*/
   }
 
   #hero h1 {
@@ -40,7 +37,6 @@
     letter-spacing: 0.3rem;
     word-spacing: 0.2rem;
   }
-  
 
   /*
    █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
@@ -66,11 +62,13 @@
   .wrappers {
     height: 77vh;
   }
+
   .hero-to-movies,
   .movies-to-actors,
   .actors-to-gallery {
-  background-attachment: fixed;
+    background-attachment: fixed;
   }
+
   .hero-to-movies {
     background-size: 100% 100%;
   }
@@ -82,6 +80,7 @@
   .actors-to-gallery {
     background-size: 200% 100%;
   }
+
   .feature {
     padding: 35px 25px 0;
   }
@@ -132,6 +131,5 @@
  ██      ██    ██ ██    ██    ██    ██      ██   ██
  ██       ██████   ██████     ██    ███████ ██   ██
  */
-  .footer-mobile-wrapper {
-  }
+  .footer-mobile-wrapper {}
 }

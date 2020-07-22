@@ -89,7 +89,6 @@ nav ul li {
 nav ul li a {
   /*color: rgb(237, 245, 252);*/
   color: whitesmoke;
-
   display: block;
   /* clickable on outside text */
   font-family: 'Lato', sans-serif;
@@ -112,7 +111,6 @@ nav ul li a {
   background-color: chocolate;
   position: relative;
   width: 100%;
-  
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -124,7 +122,6 @@ nav ul li a {
   -ms-user-select: none;
   /* Internet Explorer/Edge */
   user-select: none;
-  
   display: flex;
   justify-content: center;
 }
@@ -157,16 +154,12 @@ nav ul li a {
   text-align: center;
   text-shadow: 6px 6px 4px black;
   text-transform: uppercase;
-  
   border: 2px solid rgb(253, 227, 17);
   border-radius: 56px;
   background-color: rgba(114, 169, 226, 0.3);
   background-color: rgba(123, 157, 201, 0.5);
   background-color: rgba(245, 245, 245, 0.2);
-
-
-  
-/*
+  /*
   background-color: rgba(93, 145, 214, 0.5);
   min-width: 30vw;
   padding: 0 20px;
@@ -178,7 +171,6 @@ nav ul li a {
 
 #hero h1, #hero h2 {
   /*margin: 0 auto;*/
-
 }
 
 #hero h1 {
@@ -388,6 +380,7 @@ p {
 .read-more:hover {
   background-color: rgb(180, 165, 147);
 }
+
 .source:hover {
   background-color: rgb(138, 134, 127);
 }
