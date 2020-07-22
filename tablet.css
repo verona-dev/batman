@@ -66,9 +66,13 @@
   .wrappers {
     height: 77vh;
   }
-
+  .hero-to-movies,
+  .movies-to-actors,
+  .actors-to-gallery {
+  background-attachment: fixed;
+  }
   .hero-to-movies {
-    background-size: 190% 100%;
+    background-size: 100% 100%;
   }
 
   .movies-to-actors {
@@ -77,6 +81,9 @@
 
   .actors-to-gallery {
     background-size: 200% 100%;
+  }
+  .feature {
+    padding: 35px 25px 0;
   }
 
   /*

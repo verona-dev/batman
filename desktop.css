@@ -26,7 +26,7 @@
   }
 
   #hero {
-    margin-bottom: 8vh;
+    /*margin-bottom: 8vh;*/
   }
 
   #bat-video {
@@ -55,7 +55,7 @@
     font-size: 7rem;
     font-weight: bold;
     letter-spacing: 1rem;
-    padding: 10px 20px 0;
+    padding: 7px 10px 0 20px;
   }
 
   #hero h2 {
@@ -63,7 +63,6 @@
     font-weight: 300;
     letter-spacing: 0.6rem;
     word-spacing: 0.4rem;
-    margin-bottom: 10px;
   }
 
   .movies h2,
@@ -87,7 +86,7 @@
   .hero-to-movies,
   .movies-to-actors,
   .actors-to-gallery {
-    background-attachment: fixed;
+  background-attachment: fixed;
   }
 
   .hero-to-movies {
@@ -100,6 +99,10 @@
 
   .actors-to-gallery {
     background-size: 100vw 100%;
+  }
+  .feature {
+    padding: 35px 25px 0;
+    margin-bottom: 5%;
   }
 
   /*

@@ -121,6 +121,24 @@
   ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
    ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
   */
+  .feature {
+   /*margin-bottom: 50%;*/
+   padding: 10% 0 10%;
+   border-bottom: 5px solid black;
+  }
+  .feature-1 {
+    background-color: rgba(38, 38, 38, 0.41);
+    color: whitesmoke;
+    
+  }
+  .feature-2 {
+    background-color: rgba(215, 223, 173, 0.5);
+  }
+  .feature-3 {
+    background-color: rgba(215, 223, 173, 0.8);
+  }
+  
+  
   .wrappers {
     border: 12px solid whitesmoke;
     height: 400px;
@@ -128,11 +146,12 @@
   }
 
   .hero-to-movies,
-  .movies-to-actors, {
+  .movies-to-actors {
     /*background-size: 50% 100%;*/
     /*background-position: bottom;*/
     /*background-attachment: fixed;*/
   }
+  
 
   /*
   ██████   █████  ██      ██      ███████ ██████  ██    ██

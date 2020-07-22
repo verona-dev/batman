@@ -62,7 +62,8 @@ header {
 }
 
 nav {
-  background-color: rgba(38, 38, 38, 0.85);
+  /*background-color: rgba(38, 38, 38, 0.85);*/
+  background-color: rgb(38, 38, 38);
   width: 100%;
 }
 
@@ -86,7 +87,9 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  /*color: rgb(237, 245, 252);*/
+  color: whitesmoke;
+
   display: block;
   /* clickable on outside text */
   font-family: 'Lato', sans-serif;
@@ -106,7 +109,7 @@ nav ul li a {
 ██   ██ ███████ ██   ██  ██████
 */
 #hero {
-  /*background-color: chocolate;*/
+  background-color: chocolate;
   position: relative;
   width: 100%;
   
@@ -122,8 +125,8 @@ nav ul li a {
   /* Internet Explorer/Edge */
   user-select: none;
   
-  /*  display: flex;
-  justify-content: center;*/
+  display: flex;
+  justify-content: center;
 }
 
 #bat-video {
@@ -144,30 +147,31 @@ nav ul li a {
 
 #hero-text {
   /*background-color: aquamarine;*/
-  bottom: 0;
+  bottom: 5%;
   color: whitesmoke;
   color: rgb(253, 227, 17);
   cursor: default;
   font-family: 'Lato', sans-serif;
-  height: 25%;
+  height: 23%;
   position: absolute;
   text-align: center;
   text-shadow: 6px 6px 4px black;
   text-transform: uppercase;
-  width: 100%;
   
+  border: 2px solid rgb(253, 227, 17);
+  border-radius: 56px;
+  background-color: rgba(114, 169, 226, 0.3);
+  background-color: rgba(123, 157, 201, 0.5);
+  background-color: rgba(245, 245, 245, 0.2);
 
 
   
-
-  /*min-width: 30vw;
+/*
+  background-color: rgba(93, 145, 214, 0.5);
+  min-width: 30vw;
   padding: 0 20px;
   bottom: 280px;
   height: 30vh;
-  background-color: rgba(114, 169, 226, 0.3);
-  background-color: rgba(123, 157, 201, 0.5);
-  background-color: rgba(93, 145, 214, 0.5);
-  background-color: rgba(245, 245, 245, 0.25);
   border: 5px solid rgb(253, 227, 17);*/
   /*bottom: 200px;*/
 }
@@ -178,7 +182,7 @@ nav ul li a {
 }
 
 #hero h1 {
-  /*background-color: blue;*/
+  /*background-color: bisque;*/
 }
 
 #hero h2 {
@@ -201,7 +205,7 @@ nav ul li a {
 
 .movies h2,
 .actors h2 {
-  background-color: rgba(252, 226, 16, 0.3);
+  /*background-color: rgba(252, 226, 16, 0.3);*/
 }
 
 #gallery h2 {
@@ -337,14 +341,14 @@ p {
 
 .feature {
   height: 1300px;
+  height: 100%;
   position: relative;
   /*<-- if navbar disappears, disable relative */
   flex-basis: 20%;
   text-align: center;
-  padding: 35px 35px 0;
-  margin-bottom: 50px;
   /*
   margin-top: 50px;
+  padding: 35px 25px 0;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 25%;*/
@@ -379,6 +383,13 @@ p {
   background-color: rgba(138, 134, 127, 0.7);
   width: 35%;
   padding: 22px;
+}
+
+.read-more:hover {
+  background-color: rgb(180, 165, 147);
+}
+.source:hover {
+  background-color: rgb(138, 134, 127);
 }
 
 /*

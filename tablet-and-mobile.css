@@ -58,13 +58,13 @@
   }
   nav ul li:active {
     background-color: rgb(253, 227, 17);
-    color: rgb(38, 38, 38);
     
   }
   nav ul li a {
     font-size: 0.9rem;
   }
   nav ul li a:focus {
+    color: rgb(38, 38, 38);
   }
 
   /*  .hero-text {
@@ -120,16 +120,7 @@
     font-size: 2rem;
   }
 
-  .feature p {}
 
-  /*  .picture {
-    height: 45vh;
-    width: 90vw;
-  }*/
-  /*  .actors .feature .picture {
-    height: 200px;
-    width: 320px;
-  }*/
   .footer-img {
     height: 50vh;
     width: 100vw;
