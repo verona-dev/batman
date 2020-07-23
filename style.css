@@ -351,36 +351,31 @@ p {
   width: 400px;
 }
 
-.read-more,
-.source {
-  display: inline-block;
-  margin-top: 20px;
-  text-decoration: none;
-}
 
 .button {
   border-radius: 10px;
   cursor: pointer;
-  /*font-size: 1.2rem;*/
-  padding: 10px;
   text-align: center;
 }
-
-.read-more.button {
-  background-color: rgba(180, 165, 147, 0.7);
-  width: 40%;
-}
-
-.source.button {
-  background-color: rgba(138, 134, 127, 0.7);
+.read-more,
+.source {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
   width: 35%;
-  padding: 22px;
 }
 
+.read-more {
+  background-color: rgba(180, 165, 147, 0.7);
+  transition: background-color 500ms;
+}
 .read-more:hover {
   background-color: rgb(180, 165, 147);
 }
 
+.source {
+  background-color: rgba(138, 134, 127, 0.7);
+}
 .source:hover {
   background-color: rgb(138, 134, 127);
 }
@@ -394,6 +389,7 @@ p {
 */
 .wrappers {
   border: 12px solid whitesmoke;
+  outline: 2px solid black;
 }
 
 .hero-to-movies,
