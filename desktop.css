@@ -475,7 +475,7 @@
     display: flex;
     justify-content: center;
     /*flex-direction: column;*/
-    /*transition: background-color 6s ease 0s;*/
+    transition: background-color 6s ease 0s;
   }
 
   /*---  Logo on RETURN----*/

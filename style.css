@@ -343,7 +343,8 @@ p {
   padding: 35px 25px 0;
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 25%;*/
+  flex-basis: 25%;
+  */
 }
 
 .picture {
@@ -351,52 +352,83 @@ p {
   width: 400px;
 }
 
-
-.button {
-  border-radius: 10px;
+/*
+██████  ██    ██ ████████ ████████  ██████  ███    ██
+██   ██ ██    ██    ██       ██    ██    ██ ████   ██
+██████  ██    ██    ██       ██    ██    ██ ██ ██  ██
+██   ██ ██    ██    ██       ██    ██    ██ ██  ██ ██
+██████   ██████     ██       ██     ██████  ██   ████
+*/
+.button-wrapper {
+  display: inline-block;
   cursor: pointer;
   text-align: center;
+  width: 140px;
 }
+
 .read-more,
 .source {
+  border-radius: 10px;
   display: inline-block;
-  text-decoration: none;
   padding: 10px;
-  width: 35%;
-}
-
-.read-more {
+  text-decoration: none;
+  width: 140px;
+  
   background-color: rgba(38, 38, 38, 0.8);
   color: rgb(252, 226, 17);
-  box-shadow: 4px 4px 3px rgba(38, 38, 38, 0.3);
+  box-shadow: 4px 4px 1px rgba(38, 38, 38, 0.4);
   
-
-  transition: background-color 1s;
-  transition: box-shadow 400ms;
+  transition: 
+  background-color 500ms,
+  box-shadow 1s, 
+  transform 1s;
 }
-.read-more:hover {
-  background-color: rgba(38, 38, 38, 0.7);
+
+.button-wrapper:hover .read-more-1,
+.button-wrapper:hover .source-1 {
+  background-color: rgba(252, 226, 16, 0.75);
+  box-shadow: 16px 10px 4px rgba(38, 38, 38, 0.4);
+  transform: translate(-10px, 0);
+
+  color: rgb(38, 38, 38);
+}
+
+.button-wrapper:hover .read-more-2,
+.button-wrapper:hover .source-2 {
+  box-shadow: 10px 16px 4px rgba(38, 38, 38, 0.4);
+  transform: translate(0, -10px);
+    
+  background-color: rgba(252, 226, 16, 0.75);
+  color: rgb(38, 38, 38);
+}
+
+.button-wrapper:hover .read-more-3,
+.button-wrapper:hover .source-3 {
+  box-shadow: 2px 16px 4px rgba(38, 38, 38, 0.4);
+  transform: translate(10px, 0);
+    
+  background-color: rgba(252, 226, 16, 0.75);
+  color: rgb(38, 38, 38);
+}
+
+
+.button-wrapper:active .read-more,
+.button-wrapper:active .source {
+  background-color: rgba(38, 38, 38, 0.8);
   color: rgb(253, 227, 17);
-  box-shadow: 6px 6px 2px rgba(38, 38, 38, 0.4);
-  box-shadow: -6px -6px 6px -4px rgba(255,0,0,0.75),
-
-           6px -6px 6px -4px rgba(0,255,0,0.75),
-
-           6px 6px 6px -4px rgba(255,255,0,0.75),
-
-           -6px 6px 6px -4px rgba(0,0,255,0.75);
-}
-.read-more:active {
-  background-color: rgb(253, 227, 17);
-  color: rgba(38, 38, 38, 0.7);
-  box-shadow: 10px 10px 5px rgba(38, 38, 38, 0.4);
 }
 
-.source {
-  background-color: rgba(138, 134, 127, 0.7);
+.button-wrapper:active .read-more-1,
+.button-wrapper:active .source-1 {
+  box-shadow: 8px 8px 4px rgba(38, 38, 38, 0.4);
 }
-.source:hover {
-  background-color: rgb(138, 134, 127);
+.button-wrapper:active .read-more-2,
+.button-wrapper:active .source-2 {
+  box-shadow: 8px 12px 4px rgba(38, 38, 38, 0.4);
+}
+.button-wrapper:active .read-more-3,
+.button-wrapper:active .source-3 {
+  box-shadow: 4px 12px 4px rgba(38, 38, 38, 0.4);
 }
 
 /*
@@ -408,7 +440,7 @@ p {
 */
 .wrappers {
   border: 12px solid whitesmoke;
-  outline: 2px solid black;
+  /*outline: 2px solid black;*/
 }
 
 .hero-to-movies,
