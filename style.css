@@ -111,6 +111,7 @@ nav ul li a {
   background-color: chocolate;
   position: relative;
   width: 100%;
+  
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -347,9 +348,30 @@ p {
   */
 }
 
+/*
+██████  ██  ██████ ████████ ██    ██ ██████  ███████
+██   ██ ██ ██         ██    ██    ██ ██   ██ ██
+██████  ██ ██         ██    ██    ██ ██████  █████
+██      ██ ██         ██    ██    ██ ██   ██ ██
+██      ██  ██████    ██     ██████  ██   ██ ███████
+*/
+
+.picture-wrapper {
+  display: inline-block;
+  height: 300px;
+  width: 400px;
+}
+
 .picture {
   height: 300px;
   width: 400px;
+}
+.batman-returns-poster {
+  transition: transform 1s ease;
+
+}
+.picture-wrapper:hover .batman-returns-poster {
+  transform: rotate3d(0,1,0, 360deg);
 }
 
 /*
@@ -373,41 +395,46 @@ p {
   padding: 10px;
   text-decoration: none;
   width: 140px;
+  user-select: none;
   
   background-color: rgba(38, 38, 38, 0.8);
   color: rgb(252, 226, 17);
   box-shadow: 4px 4px 1px rgba(38, 38, 38, 0.4);
   
   transition: 
-  background-color 500ms,
-  box-shadow 1s, 
-  transform 1s;
+  background-color 900ms,
+  box-shadow 500ms, 
+  transform 500ms;
+}
+.read-more-3,
+.source-3 {
+  box-shadow: -4px 4px 1px rgba(38, 38, 38, 0.4);
+  transition: transform 1s;
 }
 
 .button-wrapper:hover .read-more-1,
 .button-wrapper:hover .source-1 {
-  background-color: rgba(252, 226, 16, 0.75);
-  box-shadow: 16px 10px 4px rgba(38, 38, 38, 0.4);
-  transform: translate(-10px, 0);
+  background-color: rgba(252, 226, 16, 0.5);
+  box-shadow: 20px 10px 4px rgba(38, 38, 38, 0.4);
+  transform: translate(-15px, 0);
 
   color: rgb(38, 38, 38);
 }
 
 .button-wrapper:hover .read-more-2,
 .button-wrapper:hover .source-2 {
-  box-shadow: 10px 16px 4px rgba(38, 38, 38, 0.4);
-  transform: translate(0, -10px);
+  box-shadow: 4px 20px 4px rgba(38, 38, 38, 0.4);
+  transform: translate(0, -15px);
     
-  background-color: rgba(252, 226, 16, 0.75);
+  background-color: rgba(252, 226, 16, 0.5);
   color: rgb(38, 38, 38);
 }
 
 .button-wrapper:hover .read-more-3,
 .button-wrapper:hover .source-3 {
-  box-shadow: 2px 16px 4px rgba(38, 38, 38, 0.4);
-  transform: translate(10px, 0);
-    
-  background-color: rgba(252, 226, 16, 0.75);
+  box-shadow: -40px 10px 4px rgba(38, 38, 38, 0.4);
+  transform: translate(45px, 0) rotate(360deg);
+  background-color: rgba(252, 226, 16, 0.5);
   color: rgb(38, 38, 38);
 }
 
@@ -418,7 +445,7 @@ p {
   color: rgb(253, 227, 17);
 }
 
-.button-wrapper:active .read-more-1,
+/*.button-wrapper:active .read-more-1,
 .button-wrapper:active .source-1 {
   box-shadow: 8px 8px 4px rgba(38, 38, 38, 0.4);
 }
@@ -429,7 +456,7 @@ p {
 .button-wrapper:active .read-more-3,
 .button-wrapper:active .source-3 {
   box-shadow: 4px 12px 4px rgba(38, 38, 38, 0.4);
-}
+}*/
 
 /*
 ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
