@@ -111,7 +111,6 @@ nav ul li a {
   background-color: chocolate;
   position: relative;
   width: 100%;
-  
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -155,13 +154,14 @@ nav ul li a {
   text-align: center;
   text-shadow: 6px 6px 4px black;
   text-transform: uppercase;
-  border: 2px solid rgb(253, 227, 17);
-  border-radius: 56px;
+  
+  border-radius: 32px;
   background-color: rgba(114, 169, 226, 0.3);
   background-color: rgba(123, 157, 201, 0.5);
   background-color: rgba(245, 245, 245, 0.2);
   /*
   background-color: rgba(93, 145, 214, 0.5);
+  border: 2px solid rgb(253, 227, 17);
   min-width: 30vw;
   padding: 0 20px;
   bottom: 280px;
@@ -355,23 +355,47 @@ p {
 ██      ██ ██         ██    ██    ██ ██   ██ ██
 ██      ██  ██████    ██     ██████  ██   ██ ███████
 */
-
 .picture-wrapper {
   display: inline-block;
-  height: 300px;
-  width: 400px;
 }
 
+.picture-wrapper,
+.batman-robin-wrapper,
 .picture {
   height: 300px;
   width: 400px;
 }
-.batman-returns-poster {
-  transition: transform 1s ease;
 
+/*----- Dark Knight Poster ---------*/
+/*----------------------------------*/
+.dark-knight-poster {
+  transition: transform 800ms, box-shadow 800ms;
 }
+
+.picture-wrapper:hover .dark-knight-poster {
+  box-shadow: 20px 10px 4px rgba(38, 38, 38, 0.4);
+  transform: translate(-15px, 0);
+}
+
+/*----- Batman & Robin Poster -------*/
+/*-----------------------------------*/
+.batman-robin-poster {
+  transition: transform 1.2s ease-in-out;
+  pointer-events: none;
+}
+
+.batman-robin-wrapper:hover .batman-robin-poster {
+  transform: rotate(360deg);
+}
+
+/*----- Batman Returns Poster --------*/
+/*------------------------------------*/
+.batman-returns-poster {
+  transition: transform 1s ease-in-out;
+}
+
 .picture-wrapper:hover .batman-returns-poster {
-  transform: rotate3d(0,1,0, 360deg);
+  transform: rotate3d(0, 1, 0, 360deg);
 }
 
 /*
@@ -386,58 +410,69 @@ p {
   cursor: pointer;
   text-align: center;
   width: 140px;
+  height: 60px;
 }
 
 .read-more,
 .source {
+  background-color: rgba(38, 38, 38, 0.8);
   border-radius: 10px;
+  color: rgb(252, 226, 17);
   display: inline-block;
   padding: 10px;
   text-decoration: none;
-  width: 140px;
   user-select: none;
-  
-  background-color: rgba(38, 38, 38, 0.8);
-  color: rgb(252, 226, 17);
-  box-shadow: 4px 4px 1px rgba(38, 38, 38, 0.4);
-  
-  transition: 
-  background-color 900ms,
-  box-shadow 500ms, 
-  transform 500ms;
+  width: 140px;
+  transition: background-color 900ms;
 }
+
+.read-more-1,
+.source-1,
+.read-more-2,
+.source-2 {
+  box-shadow: 4px 4px 1px rgba(38, 38, 38, 0.4);
+  transition: transform 500ms, box-shadow 500ms;
+}
+
+.button-wrapper:hover .read-more-1,
+.button-wrapper:hover .source-1,
+.button-wrapper:hover:hover .read-more-2,
+.button-wrapper:hover .source-2,
+.button-wrapper:hover .read-more-3,
+.button-wrapper:hover .source-3 {
+  background-color: rgba(252, 226, 16, 0.5);
+  color: rgb(38, 38, 38);
+}
+
+/*----------  Read More Button 1 ------------*/
+/*-------------------------------------------*/
+.button-wrapper:hover .read-more-1,
+.button-wrapper:hover .source-1 {
+  box-shadow: 20px 10px 4px rgba(38, 38, 38, 0.4);
+  transform: translate(-15px, 0);
+}
+
+/*----------  Read More Button 2 ------------*/
+/*-------------------------------------------*/
+.button-wrapper:hover:hover .read-more-2,
+.button-wrapper:hover .source-2 {
+  box-shadow: 4px 20px 4px rgba(38, 38, 38, 0.4);
+  transform: translate(0, -15px);
+}
+
+/*----------  Read More Button 3 ------------*/
+/*-------------------------------------------*/
 .read-more-3,
 .source-3 {
   box-shadow: -4px 4px 1px rgba(38, 38, 38, 0.4);
   transition: transform 1s;
 }
 
-.button-wrapper:hover .read-more-1,
-.button-wrapper:hover .source-1 {
-  background-color: rgba(252, 226, 16, 0.5);
-  box-shadow: 20px 10px 4px rgba(38, 38, 38, 0.4);
-  transform: translate(-15px, 0);
-
-  color: rgb(38, 38, 38);
-}
-
-.button-wrapper:hover .read-more-2,
-.button-wrapper:hover .source-2 {
-  box-shadow: 4px 20px 4px rgba(38, 38, 38, 0.4);
-  transform: translate(0, -15px);
-    
-  background-color: rgba(252, 226, 16, 0.5);
-  color: rgb(38, 38, 38);
-}
-
 .button-wrapper:hover .read-more-3,
 .button-wrapper:hover .source-3 {
-  box-shadow: -40px 10px 4px rgba(38, 38, 38, 0.4);
-  transform: translate(45px, 0) rotate(360deg);
-  background-color: rgba(252, 226, 16, 0.5);
-  color: rgb(38, 38, 38);
+  box-shadow: -16px 10px 4px rgba(38, 38, 38, 0.4);
+  transform: rotate3d(0, 1, 0, 360deg);
 }
-
 
 .button-wrapper:active .read-more,
 .button-wrapper:active .source {
@@ -457,7 +492,6 @@ p {
 .button-wrapper:active .source-3 {
   box-shadow: 4px 12px 4px rgba(38, 38, 38, 0.4);
 }*/
-
 /*
 ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
 ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
