@@ -154,7 +154,6 @@ nav ul li a {
   text-align: center;
   text-shadow: 6px 6px 4px black;
   text-transform: uppercase;
-  
   border-radius: 32px;
   background-color: rgba(114, 169, 226, 0.3);
   background-color: rgba(123, 157, 201, 0.5);
@@ -359,6 +358,10 @@ p {
   display: inline-block;
 }
 
+.picture:active {
+  outline: none;
+}
+
 .picture-wrapper,
 .batman-robin-wrapper,
 .picture {
@@ -410,17 +413,46 @@ p {
   cursor: pointer;
   text-align: center;
   width: 140px;
-  height: 60px;
+  margin: 0 auto;
+}
+
+.button-wrapper,
+.read-more,
+.source {
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button-wrapper a {
+  color: rgb(0, 255, 255);
+}
+
+.button-wrapper a:visited {
+  /*background-color: rgb(56, 55, 55);*/
+  color: rgb(18, 214, 214);
+  color: rgb(16, 194, 194);
+}
+
+.button-wrapper a:hover {
+  color: rgb(0, 255, 255);
+}
+
+.button-wrapper a:active {
+  color: rgb(38, 38, 38);
+  background-color: rgba(252, 226, 16, 0.5);
+  outline: none;
+}
+
+.button-wrapper:focus {
+  background-color: rgba(252, 226, 16, 0.5);
+  color: rgb(38, 38, 38);
 }
 
 .read-more,
 .source {
   background-color: rgba(38, 38, 38, 0.8);
-  border-radius: 10px;
-  color: rgb(252, 226, 17);
   display: inline-block;
   padding: 10px;
-  text-decoration: none;
   user-select: none;
   width: 140px;
   transition: background-color 900ms;
@@ -434,34 +466,33 @@ p {
   transition: transform 500ms, box-shadow 500ms;
 }
 
-.button-wrapper:hover .read-more-1,
+/*.button-wrapper:hover .read-more-1,
 .button-wrapper:hover .source-1,
-.button-wrapper:hover:hover .read-more-2,
+.button-wrapper:hover .read-more-2,
 .button-wrapper:hover .source-2,
 .button-wrapper:hover .read-more-3,
 .button-wrapper:hover .source-3 {
   background-color: rgba(252, 226, 16, 0.5);
   color: rgb(38, 38, 38);
-}
-
-/*----------  Read More Button 1 ------------*/
-/*-------------------------------------------*/
+}*/
+/*------ Button 1 (Read More + Source)  ---------*/
+/*-----------------------------------------------*/
 .button-wrapper:hover .read-more-1,
 .button-wrapper:hover .source-1 {
   box-shadow: 20px 10px 4px rgba(38, 38, 38, 0.4);
   transform: translate(-15px, 0);
 }
 
-/*----------  Read More Button 2 ------------*/
-/*-------------------------------------------*/
-.button-wrapper:hover:hover .read-more-2,
+/*------ Button 2 (Read More + Source)  ---------*/
+/*-----------------------------------------------*/
+.button-wrapper:hover .read-more-2,
 .button-wrapper:hover .source-2 {
   box-shadow: 4px 20px 4px rgba(38, 38, 38, 0.4);
   transform: translate(0, -15px);
 }
 
-/*----------  Read More Button 3 ------------*/
-/*-------------------------------------------*/
+/*------ Button 3 (Read More + Source)  ---------*/
+/*-----------------------------------------------*/
 .read-more-3,
 .source-3 {
   box-shadow: -4px 4px 1px rgba(38, 38, 38, 0.4);
@@ -474,24 +505,13 @@ p {
   transform: rotate3d(0, 1, 0, 360deg);
 }
 
-.button-wrapper:active .read-more,
+/*----------      Active        ------------*/
+/*-------------------------------------------*/
+/*.button-wrapper:active .read-more,
 .button-wrapper:active .source {
-  background-color: rgba(38, 38, 38, 0.8);
-  color: rgb(253, 227, 17);
-}
-
-/*.button-wrapper:active .read-more-1,
-.button-wrapper:active .source-1 {
-  box-shadow: 8px 8px 4px rgba(38, 38, 38, 0.4);
-}
-.button-wrapper:active .read-more-2,
-.button-wrapper:active .source-2 {
-  box-shadow: 8px 12px 4px rgba(38, 38, 38, 0.4);
-}
-.button-wrapper:active .read-more-3,
-.button-wrapper:active .source-3 {
-  box-shadow: 4px 12px 4px rgba(38, 38, 38, 0.4);
+  background-color: rgba(252, 226, 16, 0.5);
 }*/
+
 /*
 ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
 ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
