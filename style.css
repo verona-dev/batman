@@ -62,7 +62,6 @@ header {
 }
 
 nav {
-  /*background-color: rgba(38, 38, 38, 0.85);*/
   background-color: rgb(38, 38, 38);
   width: 100%;
 }
@@ -158,15 +157,6 @@ nav ul li a {
   background-color: rgba(114, 169, 226, 0.3);
   background-color: rgba(123, 157, 201, 0.5);
   background-color: rgba(245, 245, 245, 0.2);
-  /*
-  background-color: rgba(93, 145, 214, 0.5);
-  border: 2px solid rgb(253, 227, 17);
-  min-width: 30vw;
-  padding: 0 20px;
-  bottom: 280px;
-  height: 30vh;
-  border: 5px solid rgb(253, 227, 17);*/
-  /*bottom: 200px;*/
 }
 
 #hero h1, #hero h2 {
@@ -184,20 +174,19 @@ nav ul li a {
 .movies h2,
 .actors h2,
 #gallery h2 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 3rem;
+  border: solid whitesmoke;
+  border-width: 0 0 12px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 7rem;
+  letter-spacing: 1rem;
   text-align: center;
   width: 100%;
-  /*
-  color: rgb(253, 227, 17);
-  border: solid whitesmoke4
-  border-width: 0 0 10px;
-  */
 }
 
 .movies h2,
 .actors h2 {
-  /*background-color: rgba(252, 226, 16, 0.3);*/
+  background-color: burlywood;
+  color: rgb(38, 38, 38);
 }
 
 #gallery h2 {
@@ -264,14 +253,19 @@ p {
 /*.address-text {
   background-color: aquamarine;
 }*/
+
 .follow-b {
   font-family: 'Cormorant', sans-serif;
+  font-family: 'Fredericka the Great', cursive;
+  
   cursor: default;
   margin: 70px auto 0;
   font-size: 2.4em;
   font-weight: 500;
   width: 300px;
 }
+
+
 
 .info-text {
   font-family: 'Cormorant Upright', serif;
@@ -308,6 +302,47 @@ p {
 }
 
 /*
+██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
+██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
+██  █  ██ ██████  ███████ ██████  ██████  █████   ██████  ███████
+██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
+███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
+*/
+.wrappers {
+  border: 12px solid whitesmoke;
+  width: 100%;
+  height: auto;
+  /*outline: 2px solid black;*/
+}
+
+.hero-to-movies,
+.movies-to-actors,
+.actors-to-gallery {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.hero-to-movies {
+  background-image: url(img/wrapper/bat-wings.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+.movies-to-actors {
+  background-image: url(img/wrapper/city-window.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+.actors-to-gallery {
+  background-image: url(img/wrapper/cartoon.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+
+/*
 ██████   ██████  ██   ██ ███████ ███████
 ██   ██ ██    ██  ██ ██  ██      ██
 ██████  ██    ██   ███   █████   ███████
@@ -324,6 +359,8 @@ p {
 
 .boxes {
   /*  ===   If add height, boxes will overlap   ===== */
+  border: solid whitesmoke;
+  border-width: 0 12px 0;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -334,6 +371,7 @@ p {
 .feature {
   height: 1300px;
   height: 100%;
+
   position: relative;
   /*<-- if navbar disappears, disable relative */
   flex-basis: 20%;
@@ -424,26 +462,26 @@ p {
 }
 
 .button-wrapper a {
-  color: rgb(0, 255, 255);
+  color: rgb(253, 227, 17);
 }
 
 .button-wrapper a:visited {
-  /*background-color: rgb(56, 55, 55);*/
-  color: rgb(18, 214, 214);
-  color: rgb(16, 194, 194);
+  background-color: rgb(47, 46, 46);
+  color: rgb(238, 222, 110);
 }
 
 .button-wrapper a:hover {
-  color: rgb(0, 255, 255);
+  background-color: rgba(38, 38, 38, 0.8);
+  color: rgb(253, 227, 17);
 }
 
 .button-wrapper a:active {
-  color: rgb(38, 38, 38);
   background-color: rgba(252, 226, 16, 0.5);
+  color: rgb(38, 38, 38);
   outline: none;
 }
 
-.button-wrapper:focus {
+.button-wrapper a:focus {
   background-color: rgba(252, 226, 16, 0.5);
   color: rgb(38, 38, 38);
 }
@@ -512,40 +550,3 @@ p {
   background-color: rgba(252, 226, 16, 0.5);
 }*/
 
-/*
-██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
-██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
-██  █  ██ ██████  ███████ ██████  ██████  █████   ██████  ███████
-██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
-███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
-*/
-.wrappers {
-  border: 12px solid whitesmoke;
-  /*outline: 2px solid black;*/
-}
-
-.hero-to-movies,
-.movies-to-actors,
-.actors-to-gallery {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-}
-
-.hero-to-movies {
-  background-image: url(img/wrapper/bat-wings.jpg);
-  height: 100%;
-  width: 100%;
-}
-
-.movies-to-actors {
-  background-image: url(img/wrapper/city-window.jpg);
-  height: 100%;
-  width: 100%;
-}
-
-.actors-to-gallery {
-  background-image: url(img/wrapper/cartoon.jpg);
-  height: 100%;
-  width: 100%;
-}

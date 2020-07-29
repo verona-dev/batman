@@ -400,10 +400,11 @@
     transition: opacity 5s ease-in-out;
   }
 
-  .social-logo,
-  .follow-b {
+  .social-logo {
     opacity: 0.7;
-    /*.social-list h5 = removed h5 ----*/
+  }
+  .follow-b {
+    opacity: 0.85;
   }
 
   /*
