@@ -131,3 +131,20 @@
  ██      ██    ██ ██    ██    ██    ██      ██   ██
  ██       ██████   ██████     ██    ███████ ██   ██
  */
+ .mobile-followb-wrapper {
+   display: block;
+   height: 40%;
+ }
+ .follow-b {
+   border: 5px solid black;
+   font-size: 4rem;
+  letter-spacing: 1rem;
+  text-indent: 1rem;
+  width: 60%;
+ }
+ .mobile-social-ul {
+   top: 5vh;
+ }
+ .mobile-copyright {
+   top: 35vh;
+ }

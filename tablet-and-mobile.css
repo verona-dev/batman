@@ -67,10 +67,14 @@
     color: rgb(38, 38, 38);
   }
 
-  /*  .hero-text {
-    height: 20%;
-    max-height: 20%;
-  }*/
+  .movies h2,
+  .actors h2,
+  #gallery h2 {
+    font-size: 5rem;
+    letter-spacing: 0;
+    padding: 80px 0;
+  }
+
   
   /*
 ██   ██ ███████ ██████   ██████
@@ -193,18 +197,16 @@
   }
   
 
-  .footer-mobile-wrapper h4,
-  .mobile-social-ul,
-  .mobile-copyright {
+  .follow-b,
+  .mobile-social-ul {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .footer-mobile-wrapper {
-    /*background-color: blueviolet;*/
+    background-color: blueviolet;
     background-color: rgb(252, 243, 201);
-    display: block;
     /*height: 500px;*/
     /*height: 80vh;-------*/
     height: 88vh;
@@ -213,24 +215,37 @@
 
   .mobile-followb-wrapper {
     /*background-color: blanchedalmond;*/
-    display: block;
-    height: 30%;
+/*    display: inline-block;
+    height: 100px;*/
+    position: relative;
+    top: 5vh;
   }
 
   .follow-b {
     /*background-color: aquamarine;*/
-    /*background: linear-gradient(to right, rgba(59, 89, 152, 0.8), rgb(29,161,242));*/
-    /*font-family: 'Fredericka the Great', cursive;*/
-    /*font-size: 2.4rem;*/
-    /*font-weight: 500;*/
-    height: 100%;
+    font-weight: bolder;
+    margin: 0 auto;
+    text-align: center;
+    
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
   }
+  
 
   .mobile-social-ul {
-    /*background-color: red;*/
+    position: relative;
+    /*background-color: red;
     width: 100%;
-    height: 40%;
-    flex-direction: row;
+    flex-direction: row;*/
   }
 
   .mobile-social-list {
@@ -238,7 +253,8 @@
     list-style: none;
     width: 150px;
     text-align: center;
-    /*position: absolute;
+    /*
+    position: absolute;
     flex-basis: 20%;*/
   }
 
@@ -254,10 +270,17 @@
   }
 
   .mobile-copyright {
-    /*background-color:  bisque;*/
-    height: 40%;
-    /*margin: 0 auto;*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    
     width: 100%;
+    background-color: rgb(252, 243, 201);
+    /*background-color: blue;*/
+    /*height: 40%;*/
+    /*background-color:  aqua;*/
+    /*margin: 0 auto;*/
   }
 
   .mobile-a-copyright {
@@ -271,8 +294,8 @@
 
   .mobile-a-copyright p {
     /*background-color: cornflowerblue;*/
-    display: inline;
-    height: 100%;
+/*    display: inline;
+    height: 100%;*/
   }
   
   

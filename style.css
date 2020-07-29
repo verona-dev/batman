@@ -201,10 +201,6 @@ h3 {
   margin: 40px 0;
 }
 
-/*=== .social-h5 {
-  background-color: chocolate;
-  font-size: 22px;
-  margin-top: 5px;} === */
 p {
   line-height: 1.4em;
   margin-bottom: 10px;
@@ -255,17 +251,18 @@ p {
 }*/
 
 .follow-b {
-  font-family: 'Cormorant', sans-serif;
   font-family: 'Fredericka the Great', cursive;
-  
   cursor: default;
-  margin: 70px auto 0;
-  font-size: 2.4em;
+  font-size: 3em;
   font-weight: 500;
-  width: 300px;
+  width: 100%;
+  
+  /*
+  margin: 70px auto 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  */
 }
-
-
 
 .info-text {
   font-family: 'Cormorant Upright', serif;
@@ -481,10 +478,10 @@ p {
   outline: none;
 }
 
-.button-wrapper a:focus {
+/*.button-wrapper a:focus {
   background-color: rgba(252, 226, 16, 0.5);
   color: rgb(38, 38, 38);
-}
+}*/
 
 .read-more,
 .source {
@@ -493,60 +490,6 @@ p {
   padding: 10px;
   user-select: none;
   width: 140px;
-  transition: background-color 900ms;
 }
 
-.read-more-1,
-.source-1,
-.read-more-2,
-.source-2 {
-  box-shadow: 4px 4px 1px rgba(38, 38, 38, 0.4);
-  transition: transform 500ms, box-shadow 500ms;
-}
-
-/*.button-wrapper:hover .read-more-1,
-.button-wrapper:hover .source-1,
-.button-wrapper:hover .read-more-2,
-.button-wrapper:hover .source-2,
-.button-wrapper:hover .read-more-3,
-.button-wrapper:hover .source-3 {
-  background-color: rgba(252, 226, 16, 0.5);
-  color: rgb(38, 38, 38);
-}*/
-/*------ Button 1 (Read More + Source)  ---------*/
-/*-----------------------------------------------*/
-.button-wrapper:hover .read-more-1,
-.button-wrapper:hover .source-1 {
-  box-shadow: 20px 10px 4px rgba(38, 38, 38, 0.4);
-  transform: translate(-15px, 0);
-}
-
-/*------ Button 2 (Read More + Source)  ---------*/
-/*-----------------------------------------------*/
-.button-wrapper:hover .read-more-2,
-.button-wrapper:hover .source-2 {
-  box-shadow: 4px 20px 4px rgba(38, 38, 38, 0.4);
-  transform: translate(0, -15px);
-}
-
-/*------ Button 3 (Read More + Source)  ---------*/
-/*-----------------------------------------------*/
-.read-more-3,
-.source-3 {
-  box-shadow: -4px 4px 1px rgba(38, 38, 38, 0.4);
-  transition: transform 1s;
-}
-
-.button-wrapper:hover .read-more-3,
-.button-wrapper:hover .source-3 {
-  box-shadow: -16px 10px 4px rgba(38, 38, 38, 0.4);
-  transform: rotate3d(0, 1, 0, 360deg);
-}
-
-/*----------      Active        ------------*/
-/*-------------------------------------------*/
-/*.button-wrapper:active .read-more,
-.button-wrapper:active .source {
-  background-color: rgba(252, 226, 16, 0.5);
-}*/
 

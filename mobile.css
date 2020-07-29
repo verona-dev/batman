@@ -13,10 +13,12 @@
   .logo-link,
   .logo {
     height: 80px;
+    height: 12vh;
   }
 
   nav ul li {
     line-height: 80px;
+    line-height: 12vh;
   }
 
   #hero {
@@ -70,19 +72,17 @@
     word-spacing: 0.2rem;
   }
 
-  .movies h2,
+  /*  .movies h2,
   .actors h2,
-  #gallery h2, {
+  #gallery h2 {
     font-size: 5rem;
     letter-spacing: 0;
-    padding: 40px 0;
+    padding: 80px 0;
   }
 
   #gallery h2 {
     padding-bottom: 80px;
-  }
-  
-
+  }*/
   h3 {
     font-size: 1.5rem;
     position: relative;
@@ -93,17 +93,6 @@
     padding: 0 15px;
   }
 
-  .picture {
-    height: 250px;
-    width: 350px;
-  }
-  
-  
-
-  /*  .actors .feature .picture {
-    height: 200px;
-    width: 320px;
-  }*/
   /*
  █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
 ██   ██ ████   ██ ██      ██   ██ ██    ██ ██   ██ ██
@@ -151,8 +140,11 @@
     height: 400px;
     width: 100%;
   }
+
   .picture {
     border-radius: 25px 25px 0 0;
+    height: 250px;
+    width: 350px;
   }
 
   /*
@@ -172,5 +164,29 @@
 
   .mobile-box a span {
     line-height: 3.6rem;
+  }
+
+  /*
+███████  ██████   ██████  ████████ ███████ ██████
+██      ██    ██ ██    ██    ██    ██      ██   ██
+█████   ██    ██ ██    ██    ██    █████   ██████
+██      ██    ██ ██    ██    ██    ██      ██   ██
+██       ██████   ██████     ██    ███████ ██   ██
+*/
+  .mobile-followb-wrapper {}
+
+  .follow-b {
+    border: 2px solid;
+    font-size: 2rem;
+    width: 70%;
+  }
+
+  .mobile-social-ul {
+    top: 25vh;
+
+  }
+
+  .mobile-copyright {
+    top: 55vh;
   }
 }
