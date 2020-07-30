@@ -7,20 +7,6 @@
 */
 @media screen and (max-width: 480px) {
 
-  header,
-  nav,
-  nav ul,
-  .logo-link,
-  .logo {
-    height: 80px;
-    height: 12vh;
-  }
-
-  nav ul li {
-    line-height: 80px;
-    line-height: 12vh;
-  }
-
   #hero {
     height: 700px;
     background-attachment: scroll;

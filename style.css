@@ -174,13 +174,13 @@ nav ul li a {
 .movies h2,
 .actors h2,
 #gallery h2 {
-  border: solid whitesmoke;
-  border-width: 0 0 12px;
   font-family: 'Fredericka the Great', cursive;
-  font-size: 7rem;
-  letter-spacing: 1rem;
+  font-size: 6rem;
+  letter-spacing: 2rem;
   text-align: center;
   width: 100%;
+  /*  border: solid whitesmoke;
+  border-width: 0 0 12px;*/
 }
 
 .movies h2,
@@ -192,7 +192,7 @@ nav ul li a {
 #gallery h2 {
   background-color: rgb(38, 38, 38);
   color: whitesmoke;
-  margin: 0;
+  /*margin: 0;*/
 }
 
 h3 {
@@ -356,13 +356,13 @@ p {
 
 .boxes {
   /*  ===   If add height, boxes will overlap   ===== */
-  border: solid whitesmoke;
-  border-width: 0 12px 0;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-content: center;
+  /*  border: solid whitesmoke;
+  border-width: 0 12px 0;*/
 }
 
 .feature {
@@ -392,17 +392,17 @@ p {
 .picture-wrapper {
   display: inline-block;
 }
-
-.picture:active {
-  outline: none;
-}
-
 .picture-wrapper,
 .batman-robin-wrapper,
 .picture {
   height: 300px;
   width: 400px;
 }
+
+.picture:active {
+  outline: none;
+}
+
 
 /*----- Dark Knight Poster ---------*/
 /*----------------------------------*/
@@ -448,7 +448,8 @@ p {
   cursor: pointer;
   text-align: center;
   width: 140px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  /*margin-top: 30px;*/
 }
 
 .button-wrapper,
@@ -457,31 +458,6 @@ p {
   border-radius: 10px;
   text-decoration: none;
 }
-
-.button-wrapper a {
-  color: rgb(253, 227, 17);
-}
-
-.button-wrapper a:visited {
-  background-color: rgb(47, 46, 46);
-  color: rgb(238, 222, 110);
-}
-
-.button-wrapper a:hover {
-  background-color: rgba(38, 38, 38, 0.8);
-  color: rgb(253, 227, 17);
-}
-
-.button-wrapper a:active {
-  background-color: rgba(252, 226, 16, 0.5);
-  color: rgb(38, 38, 38);
-  outline: none;
-}
-
-/*.button-wrapper a:focus {
-  background-color: rgba(252, 226, 16, 0.5);
-  color: rgb(38, 38, 38);
-}*/
 
 .read-more,
 .source {
@@ -492,4 +468,19 @@ p {
   width: 140px;
 }
 
+.button-wrapper a {
+  color: rgb(253, 227, 17);
+}
+.button-wrapper a:visited {
+  background-color: rgb(47, 46, 46);
+  color: rgb(238, 222, 110);
+}
 
+.button-wrapper a:active {
+  background-color: rgba(252, 226, 16, 0.5);
+  color: rgb(38, 38, 38);
+  text-decoration: none;
+}
+.button-wrapper a:focus {
+  text-decoration: underline;
+}
