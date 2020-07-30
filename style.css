@@ -445,11 +445,12 @@ p {
 */
 .button-wrapper {
   display: inline-block;
+  display: block;
   cursor: pointer;
   text-align: center;
   width: 140px;
-  /*margin: 0 auto;*/
-  /*margin-top: 30px;*/
+  margin: 0 auto;
+  margin-top: 10%;
 }
 
 .button-wrapper,
