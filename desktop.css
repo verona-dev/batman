@@ -61,23 +61,22 @@
     letter-spacing: 0.6rem;
     word-spacing: 0.4rem;
   }
-  
-  .h2-movies-actors-wrapper {
-    margin: 100px 0;
-  }
   .h2-gallery-wrapper {
-    padding-top: 100px;
+    /*background-color: blue;*/
   }
-
   .movies h2,
   .actors h2,
   #gallery h2 {
     padding: 80px 0;
     text-indent: 2rem;
+    width: 40%;
+  }
+  #gallery h2 {
     width: 50%;
   }
-
-  #gallery h2 {
+  
+  .feature p {
+    padding: 0;
   }
 
   /*
@@ -87,6 +86,16 @@
     ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
      ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
     */
+    
+    
+  .h2-movies-actors-wrapper {
+    margin: 100px 0;
+  }
+
+  .h2-gallery-wrapper {
+    padding-top: 100px;
+  }
+
   .wrappers {
     height: 92vh;
     /*width: 100%;*/
@@ -111,11 +120,11 @@
   }
 
   .feature {
+    flex-basis: 20%;
     margin-bottom: 100px;
     /*padding: 35px 25px 0;*/
   }
-  
-  
+
   /*
   ██████  ██    ██ ████████ ████████  ██████  ███    ██
   ██   ██ ██    ██    ██       ██    ██    ██ ████   ██
@@ -123,11 +132,11 @@
   ██   ██ ██    ██    ██       ██    ██    ██ ██  ██ ██
   ██████   ██████     ██       ██     ██████  ██   ████
   */
-
   .button-wrapper a:hover {
     background-color: rgba(38, 38, 38, 0.8);
     color: rgb(253, 227, 17);
   }
+
   .button-wrapper a:active {
     background-color: rgba(252, 226, 16, 0.5);
     color: rgb(38, 38, 38);
@@ -137,7 +146,7 @@
   .source {
     transition: background-color 900ms;
   }
-  
+
   .read-more-1,
   .source-1,
   .read-more-2,
@@ -145,15 +154,13 @@
     box-shadow: 4px 4px 1px rgba(38, 38, 38, 0.4);
     transition: transform 500ms, box-shadow 500ms;
   }
+
   .read-more-3,
   .source-3 {
     box-shadow: -4px 4px 1px rgba(38, 38, 38, 0.4);
     transition: transform 1s;
   }
-  
-  
 
-  
   /*------ Button 1 (Read More + Source)  ---------*/
   /*-----------------------------------------------*/
   .button-wrapper:hover .read-more-1,
@@ -161,7 +168,7 @@
     box-shadow: 20px 10px 4px rgba(38, 38, 38, 0.4);
     transform: translate(-15px, 0);
   }
-  
+
   /*------ Button 2 (Read More + Source)  ---------*/
   /*-----------------------------------------------*/
   .button-wrapper:hover .read-more-2,
@@ -169,7 +176,7 @@
     box-shadow: 4px 20px 4px rgba(38, 38, 38, 0.4);
     transform: translate(0, -15px);
   }
-  
+
   /*------ Button 3 (Read More + Source)  ---------*/
   /*-----------------------------------------------*/
   .button-wrapper:hover .read-more-3,
@@ -177,7 +184,7 @@
     box-shadow: -16px 10px 4px rgba(38, 38, 38, 0.4);
     transform: rotate3d(0, 1, 0, 360deg);
   }
-  
+
   /*----------      Active        ------------*/
   /*-------------------------------------------*/
   /*  .button-wrapper:active .read-more,
@@ -185,10 +192,7 @@
     background-color: rgba(252, 226, 16, 0.5);
   }
   */
-
-  
-  
-/*  .read-more-1,
+  /*  .read-more-1,
   .source-1,
   .read-more-2,
   .source-2 {
@@ -200,8 +204,6 @@
     box-shadow: -4px 4px 1px rgba(38, 38, 38, 0.4);
     transition: transform 1s;
   }*/
-  
-
   /*
    ██████   █████  ██      ██      ███████ ██████  ██    ██
   ██       ██   ██ ██      ██      ██      ██   ██  ██  ██
@@ -499,6 +501,7 @@
   .social-logo {
     opacity: 0.7;
   }
+
   .follow-b {
     opacity: 0.85;
   }

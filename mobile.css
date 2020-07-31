@@ -13,6 +13,7 @@
         rgba(0, 0, 0, 0.4)),
       url(img/batman-hero.jpg);
     background-size: 700px 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     /*background-attachment: fixed; --> makes image glitch */
@@ -60,16 +61,17 @@
   .movies h2,
   .actors h2,
   #gallery h2 {
+    width: 80%;
   }
 
   h3 {
-    font-size: 1.5rem;
-    position: relative;
+    font-size: 2rem;
+    /*margin: 20px 0;*/
   }
-
-  .feature p {
+  
+  p {
     font-size: 1.2rem;
-    padding: 0 15px;
+    /*padding: 10px 120px;*/
   }
 
   /*
@@ -79,7 +81,7 @@
 ██   ██ ██  ██ ██ ██      ██   ██ ██    ██ ██   ██      ██
 ██   ██ ██   ████  ██████ ██   ██  ██████  ██   ██ ███████
 */
-  #movies::before,
+  /*  #movies::before,
   #actors::before,
   #gallery::before {
     content: '';
@@ -87,6 +89,12 @@
     height: 80px;
     margin-top: -80px;
     visibility: hidden;
+  }*/
+  #movies::before,
+  #actors::before,
+  #gallery::before {
+    height: 12vh;
+    margin-top: -12vh;
   }
 
   /*
@@ -97,21 +105,9 @@
    ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
   */
   .feature {
-    /*margin-bottom: 50%;*/
-    /*border-bottom: 5px solid black;*/
-    border-radius: 25px;
-  }
-
-  .feature-1 {
-    background-color: rgba(215, 223, 173, 0.8);
-  }
-
-  .feature-2 {
-    background-color: rgba(215, 223, 173, 0.5);
-  }
-
-  .feature-3 {
-    background-color: rgba(215, 223, 173, 0.8);
+    /*border-radius: 25px;*/
+    /*    padding: 40px 0;*/
+    /*border-bottom: 2px solid black;*/
   }
 
   .wrappers {
@@ -121,9 +117,16 @@
   }
 
   .picture {
-    border-radius: 25px 25px 0 0;
-    height: 250px;
-    width: 350px;
+    border-radius: 22px;
+    height: 200px;
+    padding: 0 40px;
+   /*    
+    width: 300px;
+    */
+  }
+
+  .bale-picture {
+    height: 230px;
   }
 
   /*

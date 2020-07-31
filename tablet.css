@@ -51,6 +51,7 @@
     height: 12vh;
     margin-top: -12vh;
   }
+  
 
   /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
@@ -70,11 +71,11 @@
   }
 
   .hero-to-movies {
-    background-size: 100% 100%;
+    background-size: 150% 100%;
   }
 
   .movies-to-actors {
-    background-size: 200% 100%;
+    background-size: 250% 100%;
   }
 
   .actors-to-gallery {
@@ -82,8 +83,9 @@
   }
 
   .feature {
-    padding: 35px 25px 0;
-    margin: 55px 0 180px;
+    flex-basis: 100%;
+    /*padding: 60px 40px;*/
+    /*margin: 55px 0 180px;*/
   }
 
   /*

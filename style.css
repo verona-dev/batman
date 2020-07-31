@@ -166,17 +166,19 @@ nav ul li a {
 #hero h1 {
   /*background-color: bisque;*/
 }
+
 #hero h2 {
   /*background-color: bisque;*/
 }
 
-
 .h2-wrapper {
-  width: 100%;
+  min-width: 100%;
 }
+
 .h2-movies-actors-wrapper {
   margin: 50px 0;
 }
+
 .h2-gallery-wrapper {
   padding-top: 50px 0;
 }
@@ -185,11 +187,10 @@ nav ul li a {
 .actors h2,
 #gallery h2 {
   font-family: 'Fredericka the Great', cursive;
-  font-size: 6rem;
+  font-size: 5rem;
   letter-spacing: 2rem;
   text-align: center;
-margin: auto;
-
+  margin: auto;
 }
 
 .movies h2,
@@ -208,27 +209,23 @@ margin: auto;
 h3 {
   font-family: 'Fredericka the Great', cursive;
   font-size: 2rem;
-  margin: 20px 0 40px;
-}
-
-p {
-  line-height: 1.4em;
-  margin-bottom: 10px;
+  margin: 40px 0 40px;
 }
 
 .feature p {
+  line-height: 1.4em;
+  margin-bottom: 10px;
   font-size: 1.2em;
+  padding: 10px 30px;
+}
+
+.feature p {
 }
 
 .button {
   font-size: 1rem;
 }
 
-/*p {
-  font-size: 18px;
-  line-height: 32px;
-  margin-bottom: 14px;
-}*/
 .text-wrapper p {
   /*background-color: coral;*/
   font-family: 'Cormorant Upright', serif;
@@ -266,7 +263,6 @@ p {
   font-size: 3em;
   font-weight: 500;
   width: 100%;
-  
   /*
   margin: 70px auto 0;
   padding-top: 30px;
@@ -348,7 +344,6 @@ p {
   width: 100%;
 }
 
-
 /*
 ██████   ██████  ██   ██ ███████ ███████
 ██   ██ ██    ██  ██ ██  ██      ██
@@ -378,10 +373,9 @@ p {
 .feature {
   height: 1300px;
   height: 100%;
-
   position: relative;
   /*<-- if navbar disappears, disable relative */
-  flex-basis: 20%;
+  /*flex-basis: 20%;*/
   text-align: center;
   /*
   margin-top: 50px;
@@ -402,8 +396,7 @@ p {
 .picture-wrapper {
   display: inline-block;
 }
-.picture-wrapper,
-.batman-robin-wrapper,
+
 .picture {
   height: 300px;
   width: 400px;
@@ -412,7 +405,6 @@ p {
 .picture:active {
   outline: none;
 }
-
 
 /*----- Dark Knight Poster ---------*/
 /*----------------------------------*/
@@ -482,6 +474,7 @@ p {
 .button-wrapper a {
   color: rgb(253, 227, 17);
 }
+
 .button-wrapper a:visited {
   background-color: rgb(47, 46, 46);
   color: rgb(238, 222, 110);
@@ -504,7 +497,6 @@ p {
 ██    ██ ██   ██ ██      ██      ██      ██   ██    ██
  ██████  ██   ██ ███████ ███████ ███████ ██   ██    ██
 */
-
 .h2-gallery-wrapper,
 .mobile-gallery,
 .gallery-boxes {

@@ -83,7 +83,7 @@
     font-size: 4rem;
     letter-spacing: 0.4rem;
     padding: 40px 0;
-    width: 80%;
+    width: 70%;
   }
 
   .movies h2,
@@ -116,17 +116,36 @@
   #hero h1 {}
 
   #hero h2 {}
-
+  
+  /*
+  █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
+ ██   ██ ████   ██ ██      ██   ██ ██    ██ ██   ██ ██
+ ███████ ██ ██  ██ ██      ███████ ██    ██ ██████  ███████
+ ██   ██ ██  ██ ██ ██      ██   ██ ██    ██ ██   ██      ██
+ ██   ██ ██   ████  ██████ ██   ██  ██████  ██   ██ ███████
+ */
+ 
+ /*  
+ #movies::before,
+  #actors::before,
+  #gallery::before {
+  height: 12vh;
+  margin-top: -12vh;
+  }
+  */
+  
+  
   /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
   ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
   ██  █  ██ ██████  ███████ ██████  ██████  █████   ██████  ███████
   ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
-   ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
+  ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
   */
+  
   .feature {
-    padding-bottom: 60px;
-    margin: 50px 0 55px;
+    padding: 60px 20px;
+    border-top: 2px solid black;
   }
 
   .read-more,
@@ -176,11 +195,13 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-
+  .mobile-box-wrapper {
+    padding: 20px;
+  }
   .mobile-box {
-    text-align: center;
     border: 10px solid whitesmoke;
     margin-bottom: 80px;
+    text-align: center;
   }
 
   .mobile-box a {
