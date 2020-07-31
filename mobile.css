@@ -6,7 +6,6 @@
 ██      ██  ██████  ██████  ██ ███████ ███████
 */
 @media screen and (max-width: 480px) {
-
   #hero {
     height: 700px;
     background-attachment: scroll;
@@ -56,6 +55,11 @@
     font-weight: 400;
     font-size: 1rem;
     word-spacing: 0.2rem;
+  }
+
+  .movies h2,
+  .actors h2,
+  #gallery h2 {
   }
 
   /*  .movies h2,
@@ -169,7 +173,6 @@
 
   .mobile-social-ul {
     top: 25vh;
-
   }
 
   .mobile-copyright {

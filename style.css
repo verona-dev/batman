@@ -166,10 +166,15 @@ nav ul li a {
 #hero h1 {
   /*background-color: bisque;*/
 }
-
 #hero h2 {
   /*background-color: bisque;*/
 }
+
+
+.h2-wrapper {
+  width: 100%;
+}
+
 
 .movies h2,
 .actors h2,
@@ -178,27 +183,28 @@ nav ul li a {
   font-size: 6rem;
   letter-spacing: 2rem;
   text-align: center;
-  width: 100%;
-  /*  border: solid whitesmoke;
-  border-width: 0 0 12px;*/
+  margin: auto;
 }
 
 .movies h2,
 .actors h2 {
   background-color: burlywood;
+  background-color: rgba(196, 224, 121, 0.4);
+  background-color: rgba(252, 226, 16, 0.3);
+  border: 4px dashed black;
   color: rgb(38, 38, 38);
 }
 
 #gallery h2 {
   background-color: rgb(38, 38, 38);
+  border: 4px dashed whitesmoke;
   color: whitesmoke;
-  /*margin: 0;*/
 }
 
 h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Fredericka the Great', cursive;
   font-size: 2rem;
-  margin: 40px 0;
+  margin: 20px 0 40px;
 }
 
 p {
@@ -484,4 +490,17 @@ p {
 }
 .button-wrapper a:focus {
   text-decoration: underline;
+}
+
+/*
+ ██████   █████  ██      ██      ███████ ██████  ██    ██
+██       ██   ██ ██      ██      ██      ██   ██  ██  ██
+██   ███ ███████ ██      ██      █████   ██████    ████
+██    ██ ██   ██ ██      ██      ██      ██   ██    ██
+ ██████  ██   ██ ███████ ███████ ███████ ██   ██    ██
+*/
+
+.h2-gallery-wrapper,
+.mobile-gallery {
+  background-color: rgb(38, 38, 38);
 }
