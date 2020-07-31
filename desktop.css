@@ -61,6 +61,13 @@
     letter-spacing: 0.6rem;
     word-spacing: 0.4rem;
   }
+  
+  .h2-movies-actors-wrapper {
+    margin: 100px 0;
+  }
+  .h2-gallery-wrapper {
+    padding-top: 100px;
+  }
 
   .movies h2,
   .actors h2,
@@ -104,7 +111,7 @@
   }
 
   .feature {
-    margin: 5% 0;
+    margin-bottom: 100px;
     /*padding: 35px 25px 0;*/
   }
   

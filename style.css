@@ -174,7 +174,12 @@ nav ul li a {
 .h2-wrapper {
   width: 100%;
 }
-
+.h2-movies-actors-wrapper {
+  margin: 50px 0;
+}
+.h2-gallery-wrapper {
+  padding-top: 50px 0;
+}
 
 .movies h2,
 .actors h2,
@@ -183,14 +188,13 @@ nav ul li a {
   font-size: 6rem;
   letter-spacing: 2rem;
   text-align: center;
-  margin: auto;
+margin: auto;
+
 }
 
 .movies h2,
 .actors h2 {
-  background-color: burlywood;
-  background-color: rgba(196, 224, 121, 0.4);
-  background-color: rgba(252, 226, 16, 0.3);
+  background-color: rgba(252, 226, 16, 0.1);
   border: 4px dashed black;
   color: rgb(38, 38, 38);
 }
@@ -488,6 +492,7 @@ p {
   color: rgb(38, 38, 38);
   text-decoration: none;
 }
+
 .button-wrapper a:focus {
   text-decoration: underline;
 }
@@ -501,6 +506,7 @@ p {
 */
 
 .h2-gallery-wrapper,
-.mobile-gallery {
+.mobile-gallery,
+.gallery-boxes {
   background-color: rgb(38, 38, 38);
 }
