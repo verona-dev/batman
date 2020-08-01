@@ -110,6 +110,7 @@ nav ul li a {
   background-color: chocolate;
   position: relative;
   width: 100%;
+  
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
@@ -191,6 +192,18 @@ nav ul li a {
   letter-spacing: 2rem;
   text-align: center;
   margin: auto;
+  
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 .movies h2,
@@ -259,15 +272,23 @@ h3 {
 
 .follow-b {
   font-family: 'Fredericka the Great', cursive;
+  font-family: 'Cormorant', sans-serif;
   cursor: default;
   font-size: 3em;
   font-weight: 500;
   width: 100%;
-  /*
-  margin: 70px auto 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  */
+  
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 .info-text {

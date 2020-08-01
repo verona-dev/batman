@@ -144,8 +144,9 @@
 
   .follow-b {
     border: 5px dashed black;
-    font-size: 3.8rem;
+    font-size: 3rem;
     letter-spacing: 1rem;
+    padding: 20px;
     text-indent: 1rem;
     width: 70%;
 
@@ -153,9 +154,14 @@
   }
 
   .mobile-social-ul {
-    top: 5vh;
+    /*top: 5vh;*/
+    
+  }
+  .mobile-social-logo {
+    width: 100px;
+    height: 100px;
   }
 
   .mobile-copyright {
-    top: 35vh;
+    top: 30%;
   }

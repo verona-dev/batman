@@ -677,10 +677,10 @@
   }
 
   .footer-info:hover .follow-b {
-    /*background-color: darkgreen;*/
-    /*margin: 70px auto 0;*/
-    letter-spacing: 0.4rem;
-    margin: 0 auto;
+    /*
+    background-color: darkgreen;
+    margin: 70px auto 0;
+    */
     padding: 40px 0 10px;
     width: 100%;
   }
@@ -688,7 +688,7 @@
   .footer-info:hover .social-ul {
     /*background-color: red;*/
     /*height: 40%;*/
-    height: 50%;
+    height: 40%;
     width: 100%;
     /*margin-bottom: 20px;*/
     display: flex;
@@ -730,8 +730,8 @@
     /*background-color: aqua;*/
     text-decoration: none;
     display: inline-block;
-    width: 120px;
-    height: 80px;
+/*    width: 120px;
+    height: 80px;*/
     line-height: 15px;
   }
 

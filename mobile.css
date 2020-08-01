@@ -159,21 +159,20 @@
 ██      ██    ██ ██    ██    ██    ██      ██   ██
 ██       ██████   ██████     ██    ███████ ██   ██
 */
-  .mobile-followb-wrapper {
-    display: block;
-  }
+  .mobile-followb-wrapper {}
 
   .follow-b {
     border: 2px dashed;
     font-size: 3rem;
+    padding: 10px;
     width: 70%;
   }
 
   .mobile-social-ul {
-    top: 25vh;
+    top: 20vh;
   }
 
   .mobile-copyright {
-    top: 50vh;
+    top: 50%;
   }
 }
