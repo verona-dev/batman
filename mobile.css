@@ -139,6 +139,10 @@
   .mobile-box {
     /*margin-bottom: 40px;*/
   }
+  
+  .mobile-box-wrapper {
+    padding: 20px;
+  }
 
   .mobile-box img {
     width: 100%;
@@ -155,11 +159,13 @@
 ██      ██    ██ ██    ██    ██    ██      ██   ██
 ██       ██████   ██████     ██    ███████ ██   ██
 */
-  .mobile-followb-wrapper {}
+  .mobile-followb-wrapper {
+    display: block;
+  }
 
   .follow-b {
-    border: 2px solid;
-    font-size: 2rem;
+    border: 2px dashed;
+    font-size: 3rem;
     width: 70%;
   }
 
@@ -168,6 +174,6 @@
   }
 
   .mobile-copyright {
-    top: 55vh;
+    top: 50vh;
   }
 }

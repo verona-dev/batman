@@ -147,6 +147,9 @@
     padding: 60px 20px;
     border-top: 2px solid black;
   }
+  .feature-1 {
+    border-top: none;
+  }
 
   .read-more,
   .source {
@@ -189,18 +192,16 @@
   .mobile-container {
     background-color: rgb(38, 38, 38);
     height: 100%;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     /*----FlexBox----*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .mobile-box-wrapper {
-    padding: 20px;
-  }
+  
   .mobile-box {
     border: 10px solid whitesmoke;
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
     text-align: center;
   }
 
@@ -233,6 +234,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   .footer-mobile-wrapper {
@@ -256,8 +258,10 @@
     /*background-color: aquamarine;*/
     font-weight: bolder;
     margin: 0 auto;
+    padding: 20px;
     text-align: center;
-    text-indent: 0.4rem;
+    /*text-indent: 0.4rem;*/
+    
     -webkit-touch-callout: none;
     /* iOS Safari */
     -webkit-user-select: none;

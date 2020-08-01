@@ -51,7 +51,6 @@
     height: 12vh;
     margin-top: -12vh;
   }
-  
 
   /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
@@ -117,6 +116,10 @@
     /*margin-bottom: 80px;*/
   }
 
+  .mobile-box-wrapper {
+    padding: 60px;
+  }
+
   .mobile-box img {
     width: 100%;
   }
@@ -134,20 +137,25 @@
  ██      ██    ██ ██    ██    ██    ██      ██   ██
  ██       ██████   ██████     ██    ███████ ██   ██
  */
- .mobile-followb-wrapper {
-   display: block;
-   height: 40%;
- }
- .follow-b {
-   border: 5px solid black;
-   font-size: 4rem;
-  letter-spacing: 1rem;
-  text-indent: 1rem;
-  width: 60%;
- }
- .mobile-social-ul {
-   top: 5vh;
- }
- .mobile-copyright {
-   top: 35vh;
- }
+  .mobile-followb-wrapper {
+    display: block;
+    height: 40vh;
+  }
+
+  .follow-b {
+    border: 5px dashed black;
+    font-size: 3.8rem;
+    letter-spacing: 1rem;
+    text-indent: 1rem;
+    width: 70%;
+
+    /*width: 65%;*/
+  }
+
+  .mobile-social-ul {
+    top: 5vh;
+  }
+
+  .mobile-copyright {
+    top: 35vh;
+  }
