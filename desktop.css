@@ -24,6 +24,10 @@
     color: rgb(253, 227, 17);
     /*color: rgb(255, 199, 108);*/
   }
+  
+  nav .contact {
+    display: none;
+  }
 
   #hero {
     /*margin-bottom: 8vh;*/

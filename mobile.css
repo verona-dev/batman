@@ -90,12 +90,12 @@
     margin-top: -80px;
     visibility: hidden;
   }*/
-  #movies::before,
+/*  #movies::before,
   #actors::before,
   #gallery::before {
     height: 12vh;
     margin-top: -12vh;
-  }
+  }*/
 
   /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
@@ -143,6 +143,9 @@
   .mobile-box-wrapper {
     padding: 20px;
   }
+  .mobile-box-wrapper:nth-child(4) {
+    margin-bottom: 100px;
+  }
 
   .mobile-box img {
     width: 100%;
@@ -162,17 +165,17 @@
   .mobile-followb-wrapper {}
 
   .follow-b {
-    border: 2px dashed;
+    border: 3px solid;
     font-size: 3rem;
     padding: 10px;
     width: 70%;
   }
 
   .mobile-social-ul {
-    top: 20vh;
+    /*top: 20vh;*/
   }
 
   .mobile-copyright {
-    top: 50%;
+    /*top: 40%;*/
   }
 }

@@ -7,7 +7,7 @@
     overflow: hidden;
   }
 
-  nav .batcave {
+  nav #batcave {
     display: none;
   }
 
@@ -88,10 +88,8 @@
 
   .movies h2,
   .actors h2 {}
-    
-  #gallery h2 {
-    
-  }
+
+  #gallery h2 {}
 
   /*
 ██   ██ ███████ ██████   ██████
@@ -116,7 +114,7 @@
   #hero h1 {}
 
   #hero h2 {}
-  
+
   /*
   █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
  ██   ██ ████   ██ ██      ██   ██ ██    ██ ██   ██ ██
@@ -124,17 +122,17 @@
  ██   ██ ██  ██ ██ ██      ██   ██ ██    ██ ██   ██      ██
  ██   ██ ██   ████  ██████ ██   ██  ██████  ██   ██ ███████
  */
- 
- /*  
- #movies::before,
+  #movies::before,
   #actors::before,
-  #gallery::before {
-  height: 12vh;
-  margin-top: -12vh;
+  #gallery::before,
+  #contact::before {
+    content: '';
+    display: block;
+    visibility: hidden;
+    height: 12vh;
+    margin-top: -12vh;
   }
-  */
-  
-  
+
   /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
   ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
@@ -142,11 +140,11 @@
   ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
   ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
   */
-  
   .feature {
     padding: 60px 20px;
     border-top: 2px solid black;
   }
+
   .feature-1 {
     border-top: none;
   }
@@ -192,18 +190,19 @@
   .mobile-container {
     background-color: rgb(38, 38, 38);
     height: 100%;
-    padding-bottom: 120px;
+    /*padding-bottom: 60px;*/
     /*----FlexBox----*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  
+
   .mobile-box {
     border: 10px solid whitesmoke;
     /*margin-bottom: 80px;*/
     text-align: center;
   }
+
 
   .mobile-box a {
     text-decoration: none;
@@ -225,6 +224,10 @@
  ██      ██    ██ ██    ██    ██    ██      ██   ██
  ██       ██████   ██████     ██    ███████ ██   ██
  */
+ #contact {
+
+ }
+  
   .footer-wrapper {
     display: none;
   }
@@ -234,7 +237,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
 
   .footer-mobile-wrapper {
@@ -242,11 +244,14 @@
     background-color: rgb(252, 243, 201);
     height: 88vh;
     width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
   }
 
   .mobile-followb-wrapper {
     /*background-color: blanchedalmond;*/
-
     position: relative;
     top: 5vh;
   }
@@ -259,7 +264,7 @@
   }
 
   .mobile-social-ul {
-    position: relative;
+    /*position: relative;*/
     justify-content: space-evenly;
   }
 
@@ -273,7 +278,6 @@
   .mobile-a-text {
     /*     background-color: aqua;*/
   }
-
 
   .mobile-copyright {
     display: flex;
@@ -295,5 +299,4 @@
     text-decoration: none;
     font-size: 1.4rem;
   }
-
 }

@@ -45,12 +45,16 @@
   ██   ██ ██  ██ ██ ██      ██   ██ ██    ██ ██   ██      ██
   ██   ██ ██   ████  ██████ ██   ██  ██████  ██   ██ ███████
   */
-  #movies::before,
+/*  #movies::before,
   #actors::before,
-  #gallery::before {
+  #gallery::before,
+  .contact::before {
+    content: '';
+    display: block;
+    visibility: hidden;
     height: 12vh;
     margin-top: -12vh;
-  }
+  }*/
 
   /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
@@ -115,10 +119,13 @@
   .mobile-box {
     /*margin-bottom: 80px;*/
   }
-
   .mobile-box-wrapper {
     padding: 60px;
   }
+  .mobile-box-wrapper:nth-child(4) {
+    margin-bottom: 150px;
+  }
+
 
   .mobile-box img {
     width: 100%;
@@ -138,30 +145,35 @@
  ██       ██████   ██████     ██    ███████ ██   ██
  */
   .mobile-followb-wrapper {
-    display: block;
-    height: 40vh;
+    /*background-color: #fff;*/
+    /*display: block;*/
+    /*height: 40vh;*/
+    width: 80%;
+    margin: 0 auto;
+    /*top: 0;*/
   }
 
   .follow-b {
-    border: 5px dashed black;
+    border: 3px solid;
     font-size: 3rem;
     letter-spacing: 1rem;
     padding: 20px;
     text-indent: 1rem;
-    width: 70%;
+    width: 60%;
 
     /*width: 65%;*/
   }
 
   .mobile-social-ul {
+    /*background-color: yellow;*/
     /*top: 5vh;*/
     
   }
   .mobile-social-logo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 
   .mobile-copyright {
-    top: 30%;
+    /*top: 20%;*/
   }
