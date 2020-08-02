@@ -59,17 +59,17 @@
 
   nav ul li a {
     font-size: 0.9rem;
-    background-color: none;
   }
   
-  nav ul li a:active {
-     background-color: none;
-    color: rgb(253, 227, 17);
-  }
 
   nav ul li a:focus {
-    color: rgb(38, 38, 38);
+    background-color: rgb(38, 38, 38);
     color: whitesmoke;
+  }
+
+  nav ul li a:active {
+    background-color: rgb(253, 227, 17);
+    color: rgb(38, 38, 38);
   }
   
 

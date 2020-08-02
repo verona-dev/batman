@@ -21,15 +21,16 @@
   }
 
   #hero-text {
-    /*bottom: 20%;*/
-    /*bottom: 20%;*/
-    /*   top: 0;*/
+    border: 4px rgb(253, 227, 17);
+    border-style: double;
+    background-color: rgba(123, 157, 201, 0.6);
   }
 
   #hero h1 {
     padding: 0 20px;
     font-size: 3rem;
     letter-spacing: 1.4rem;
+    text-indent: 1.4rem;
   }
 
   #hero h2 {
