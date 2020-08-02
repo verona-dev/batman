@@ -150,6 +150,7 @@ nav ul li a {
 #hero-text {
   /*background-color: aquamarine;*/
   bottom: 5%;
+  bottom: 38vh;
   color: whitesmoke;
   color: rgb(253, 227, 17);
   cursor: default;

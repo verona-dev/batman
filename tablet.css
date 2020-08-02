@@ -15,7 +15,7 @@
   }
 
   #bat-video {
-    height: 60vh;
+    height: 40vh;
     /*width: 100%;*/
     margin-top: 12vh;
   }
@@ -24,19 +24,34 @@
     border: 4px rgb(253, 227, 17);
     border-style: double;
     background-color: rgba(123, 157, 201, 0.6);
+    background-color: rgba(245, 245, 245, 0.2);
+    height: 100px;
+    /*bottom: 60px;*/
+    bottom: 14vh;
+  }
+
+  #hero h1,
+  #hero h2 {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
   }
 
   #hero h1 {
-    padding: 0 20px;
     font-size: 3rem;
-    letter-spacing: 1.4rem;
-    text-indent: 1.4rem;
+    height: 65%;
+    letter-spacing: 1rem;
+    padding-top: 5px;
+    text-indent: 1rem;
   }
 
   #hero h2 {
-    /*padding-bottom: 15px;*/
     font-size: 1rem;
+    height: 35%;
     letter-spacing: 0.3rem;
+    padding-bottom: 10px;
     word-spacing: 0.2rem;
   }
 
@@ -47,7 +62,7 @@
   ██   ██ ██  ██ ██ ██      ██   ██ ██    ██ ██   ██      ██
   ██   ██ ██   ████  ██████ ██   ██  ██████  ██   ██ ███████
   */
-/*  #movies::before,
+  /*  #movies::before,
   #actors::before,
   #gallery::before,
   .contact::before {
@@ -57,7 +72,6 @@
     height: 12vh;
     margin-top: -12vh;
   }*/
-
   /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
   ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
@@ -121,13 +135,14 @@
   .mobile-box {
     /*margin-bottom: 80px;*/
   }
+
   .mobile-box-wrapper {
     padding: 60px;
   }
+
   .mobile-box-wrapper:nth-child(4) {
     margin-bottom: 150px;
   }
-
 
   .mobile-box img {
     width: 100%;
@@ -149,7 +164,7 @@
   .footer-mobile-wrapper {
     height: 77vh;
   }
-  
+
   .mobile-followb-wrapper {
     /*background-color: #fff;*/
     /*display: block;*/
@@ -164,15 +179,14 @@
     letter-spacing: 1rem;
     padding: 20px;
     text-indent: 1rem;
-
     /*width: 65%;*/
   }
 
   .mobile-social-ul {
     /*background-color: yellow;*/
     /*top: 5vh;*/
-    
   }
+
   .mobile-social-logo {
     width: 80px;
     height: 80px;
