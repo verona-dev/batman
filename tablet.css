@@ -15,8 +15,9 @@
   }
 
   #bat-video {
-    height: 20%;
-    margin-top: 100px;
+    height: 60vh;
+    /*width: 100%;*/
+    margin-top: 12vh;
   }
 
   #hero-text {
@@ -144,6 +145,10 @@
  ██      ██    ██ ██    ██    ██    ██      ██   ██
  ██       ██████   ██████     ██    ███████ ██   ██
  */
+  .footer-mobile-wrapper {
+    height: 77vh;
+  }
+  
   .mobile-followb-wrapper {
     /*background-color: #fff;*/
     /*display: block;*/
@@ -154,12 +159,10 @@
   }
 
   .follow-b {
-    border: 3px solid;
     font-size: 3rem;
     letter-spacing: 1rem;
     padding: 20px;
     text-indent: 1rem;
-    width: 60%;
 
     /*width: 65%;*/
   }

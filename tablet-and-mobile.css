@@ -2,11 +2,9 @@
   html {
     overflow: scroll;
   }
-
   body {
     overflow: hidden;
   }
-
   nav #batcave {
     display: none;
   }
@@ -14,13 +12,11 @@
   header,
   nav,
   nav ul,
+  nav ul li,
+  nav ul li a,
   .logo-link,
   .logo {
     height: 12vh;
-  }
-
-  nav ul li {
-    line-height: 12vh;
   }
 
   .logo-list {
@@ -39,7 +35,7 @@
   .logo {
     /*background-color:  aquamarine;*/
     max-width: 100px;
-    width: 100%;
+    width: 90%;
     height: 12vh;
   }
 
@@ -52,7 +48,7 @@
   nav ul {
     position: absolute;
     /*background-color: aqua;*/
-    width: 100vw;
+    width: 100%;
   }
 
   nav ul li {
@@ -61,17 +57,21 @@
     width: 100%;
   }
 
-  nav ul li:active {
-    background-color: rgb(253, 227, 17);
-  }
-
   nav ul li a {
     font-size: 0.9rem;
+    background-color: none;
+  }
+  
+  nav ul li a:active {
+     background-color: none;
+    color: rgb(253, 227, 17);
   }
 
   nav ul li a:focus {
     color: rgb(38, 38, 38);
+    color: whitesmoke;
   }
+  
 
   .h2-gallery-wrapper {
     padding: 80px 0;
@@ -242,7 +242,6 @@
   .footer-mobile-wrapper {
     background-color: blueviolet;
     background-color: rgb(252, 243, 201);
-    height: 88vh;
     width: 100%;
     
     display: flex;
@@ -252,15 +251,17 @@
 
   .mobile-followb-wrapper {
     /*background-color: blanchedalmond;*/
-    position: relative;
-    top: 5vh;
+    /*position: relative;
+    top: 5vh;*/
   }
 
   .follow-b {
     /*background-color: aquamarine;*/
+    border: 3px solid;
     font-weight: bolder;
     margin: 0 auto;
     text-align: center;
+    width: 60%;
   }
 
   .mobile-social-ul {

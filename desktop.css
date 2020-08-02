@@ -22,8 +22,19 @@
 
   nav ul li a:hover {
     color: rgb(253, 227, 17);
-    /*color: rgb(255, 199, 108);*/
   }
+
+
+  nav ul li a:focus {
+    background-color: rgb(253, 227, 17);
+    color: rgb(38, 38, 38);
+  }
+
+  nav ul li a:active {
+    background-color: inherit;
+    border: none;
+  }
+  
   
   nav .contact {
     display: none;
@@ -65,9 +76,7 @@
     letter-spacing: 0.6rem;
     word-spacing: 0.4rem;
   }
-  .h2-gallery-wrapper {
-    /*background-color: blue;*/
-  }
+
   .movies h2,
   .actors h2,
   #gallery h2 {
@@ -75,10 +84,12 @@
     text-indent: 2rem;
     width: 40%;
   }
+
   #gallery h2 {
     width: 50%;
+    /*margin-bottom: 40px;*/
   }
-  
+
   .feature p {
     padding: 0;
   }
@@ -90,14 +101,12 @@
     ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
      ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
     */
-    
-    
   .h2-movies-actors-wrapper {
     margin: 100px 0;
   }
 
   .h2-gallery-wrapper {
-    padding-top: 100px;
+    padding: 100px 0;
   }
 
   .wrappers {
@@ -221,14 +230,12 @@
 
   .container {
     background-color: rgb(38, 38, 38);
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    padding: 0 2%;
-    padding-top: 70px;
-    padding-bottom: 70px;
     box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    padding: 0 10px 100px;
     margin-bottom: 70px;
+    width: 100%;
   }
 
   .box {
@@ -734,7 +741,7 @@
     /*background-color: aqua;*/
     text-decoration: none;
     display: inline-block;
-/*    width: 120px;
+    /*    width: 120px;
     height: 80px;*/
     line-height: 15px;
   }
