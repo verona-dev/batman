@@ -1,4 +1,12 @@
-@media screen and (max-width: 1279px) {
+/*
+██████   ██████  ██████  ████████ ██████   █████  ██ ████████
+██   ██ ██    ██ ██   ██    ██    ██   ██ ██   ██ ██    ██
+██████  ██    ██ ██████     ██    ██████  ███████ ██    ██
+██      ██    ██ ██   ██    ██    ██   ██ ██   ██ ██    ██
+██       ██████  ██   ██    ██    ██   ██ ██   ██ ██    ██
+*/
+
+@media screen and (max-width: 1279px) and (orientation: portrait) {
   html {
     overflow: scroll;
   }
@@ -80,7 +88,6 @@
   .movies h2,
   .actors h2,
   #gallery h2 {
-    font-size: 4rem;
     letter-spacing: 0.4rem;
     padding: 40px 0;
     width: 70%;

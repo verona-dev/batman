@@ -1,11 +1,13 @@
 /*
-████████  █████  ██████  ██      ███████ ████████ ███████
-   ██    ██   ██ ██   ██ ██      ██         ██    ██
-   ██    ███████ ██████  ██      █████      ██    ███████
-   ██    ██   ██ ██   ██ ██      ██         ██         ██
-   ██    ██   ██ ██████  ███████ ███████    ██    ███████
+██████   ██████  ██████  ████████ ██████   █████  ██ ████████
+██   ██ ██    ██ ██   ██    ██    ██   ██ ██   ██ ██    ██
+██████  ██    ██ ██████     ██    ██████  ███████ ██    ██
+██      ██    ██ ██   ██    ██    ██   ██ ██   ██ ██    ██
+██       ██████  ██   ██    ██    ██   ██ ██   ██ ██    ██
 */
-@media screen and (min-width: 481px) and (max-width: 1279px) {
+
+
+@media screen and (min-width: 481px) and (max-width: 1279px) and (orientation: portrait) {
   nav ul li {
     flex-basis: 15%;
   }
@@ -53,6 +55,12 @@
     letter-spacing: 0.3rem;
     padding-bottom: 10px;
     word-spacing: 0.2rem;
+  }
+  
+  .movies h2,
+  .actors h2,
+  #gallery h2 {
+    font-size: 4rem;
   }
 
   /*
@@ -162,7 +170,8 @@
  ██       ██████   ██████     ██    ███████ ██   ██
  */
   .footer-mobile-wrapper {
-    height: 77vh;
+    /*height: 77vh;*/
+    height: 800px;
   }
 
   .mobile-followb-wrapper {

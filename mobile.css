@@ -1,11 +1,14 @@
 /*
-███    ███  ██████  ██████  ██ ██      ███████
-████  ████ ██    ██ ██   ██ ██ ██      ██
-██ ████ ██ ██    ██ ██████  ██ ██      █████
-██  ██  ██ ██    ██ ██   ██ ██ ██      ██
-██      ██  ██████  ██████  ██ ███████ ███████
+██████   ██████  ██████  ████████ ██████   █████  ██ ████████
+██   ██ ██    ██ ██   ██    ██    ██   ██ ██   ██ ██    ██
+██████  ██    ██ ██████     ██    ██████  ███████ ██    ██
+██      ██    ██ ██   ██    ██    ██   ██ ██   ██ ██    ██
+██       ██████  ██   ██    ██    ██   ██ ██   ██ ██    ██
 */
-@media screen and (max-width: 480px) {
+
+
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
   #hero {
     height: 700px;
     background-attachment: scroll;
@@ -78,6 +81,7 @@
   .movies h2,
   .actors h2,
   #gallery h2 {
+    font-size: 3.2rem;
     width: 80%;
   }
 
@@ -190,7 +194,8 @@
 ██       ██████   ██████     ██    ███████ ██   ██
 */
   .footer-mobile-wrapper {
-    height: 88vh;
+    /*height: 88vh;*/
+    height: 700px;
   }
 
   .mobile-followb-wrapper {}
