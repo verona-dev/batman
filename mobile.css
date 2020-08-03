@@ -1,16 +1,10 @@
-/*
-██████   ██████  ██████  ████████ ██████   █████  ██ ████████
-██   ██ ██    ██ ██   ██    ██    ██   ██ ██   ██ ██    ██
-██████  ██    ██ ██████     ██    ██████  ███████ ██    ██
-██      ██    ██ ██   ██    ██    ██   ██ ██   ██ ██    ██
-██       ██████  ██   ██    ██    ██   ██ ██   ██ ██    ██
-*/
+
+/*@media screen and (max-width: 480px) and (orientation: portrait) */
 
 
-
-@media screen and (max-width: 480px) and (orientation: portrait) {
+@media screen and (max-width: 1000px) and (max-height: 800px) {
   #hero {
-    height: 700px;
+    height: 800px;
     background-attachment: scroll;
     background-image: linear-gradient(rgba(68, 64, 64, 0.6),
         rgba(0, 0, 0, 0.4)),
@@ -47,7 +41,7 @@
     position: relative;
     text-shadow: 4px 4px 2px black;
     top: 35%;
-    min-width: 80%;
+    /*min-width: 80%;*/
     height: 20%;
   }
 
@@ -145,7 +139,6 @@
     height: 500px;
     width: 100%;
   }
-
   .picture {
     border-radius: 22px;
     height: 200px;
@@ -194,17 +187,18 @@
 ██       ██████   ██████     ██    ███████ ██   ██
 */
   .footer-mobile-wrapper {
-    /*height: 88vh;*/
-    height: 700px;
+
   }
 
-  .mobile-followb-wrapper {}
+  .mobile-followb-wrapper {
+  }
 
   .follow-b {
     font-size: 2.4rem;
-    padding: 10px;
     letter-spacing: 0.6rem;
     text-indent: 0.6rem;
+    height: 100%;
+    width: 60%;
   }
 
   .mobile-social-ul {
@@ -213,5 +207,29 @@
 
   .mobile-copyright {
     /*top: 40%;*/
+  }
+}
+
+/*
+███████ ███    ███  █████  ██      ██
+██      ████  ████ ██   ██ ██      ██
+███████ ██ ████ ██ ███████ ██      ██
+     ██ ██  ██  ██ ██   ██ ██      ██
+███████ ██      ██ ██   ██ ███████ ███████
+*/
+
+
+@media screen and (max-width: 700px) and (orientation: portrait) {
+  #hero {
+    height: 600px;
+  }
+  .hero-to-movies {
+    background-size: 190% 100%;
+    
+  }
+}
+@media screen and (max-width: 700px) and (orientation: landscape) {
+  .hero-to-movies {
+    background-size: 100% 100%;
   }
 }

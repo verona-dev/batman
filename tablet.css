@@ -5,9 +5,17 @@
 ██      ██    ██ ██   ██    ██    ██   ██ ██   ██ ██    ██
 ██       ██████  ██   ██    ██    ██   ██ ██   ██ ██    ██
 */
+@media screen and (min-width: 600px) {
+  .mobile-container {
+    padding-bottom: 30px;
+  }
+  .wrappers {
+    height: 88vh;
+  }
+}
 
 
-@media screen and (min-width: 481px) and (max-width: 1279px) and (orientation: portrait) {
+@media screen and (min-width: 1001px) and (max-width: 1279px) {
   nav ul li {
     flex-basis: 15%;
   }
@@ -98,7 +106,7 @@
   }
 
   .hero-to-movies {
-    background-size: 150% 100%;
+    background-size: 100% 100%;
   }
 
   .movies-to-actors {
@@ -169,16 +177,20 @@
  ██      ██    ██ ██    ██    ██    ██      ██   ██
  ██       ██████   ██████     ██    ███████ ██   ██
  */
+  #contact {
+    height: 100%;
+  }
+  
   .footer-mobile-wrapper {
     /*height: 77vh;*/
-    height: 800px;
+    /*height: 800px;*/
   }
 
   .mobile-followb-wrapper {
     /*background-color: #fff;*/
     /*display: block;*/
     /*height: 40vh;*/
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     /*top: 0;*/
   }
@@ -188,7 +200,7 @@
     letter-spacing: 1rem;
     padding: 20px;
     text-indent: 1rem;
-    /*width: 65%;*/
+    width: 60%;
   }
 
   .mobile-social-ul {
@@ -204,3 +216,12 @@
   .mobile-copyright {
     /*top: 20%;*/
   }
+  
+  /*
+███████ ███    ███  █████  ██      ██
+██      ████  ████ ██   ██ ██      ██
+███████ ██ ████ ██ ███████ ██      ██
+     ██ ██  ██  ██ ██   ██ ██      ██
+███████ ██      ██ ██   ██ ███████ ███████
+*/
+

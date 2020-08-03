@@ -6,7 +6,7 @@
 ██       ██████  ██   ██    ██    ██   ██ ██   ██ ██    ██
 */
 
-@media screen and (max-width: 1279px) and (orientation: portrait) {
+@media screen and (max-width: 1279px) {
   html {
     overflow: scroll;
   }
@@ -131,8 +131,10 @@
  */
   #movies::before,
   #actors::before,
-  #gallery::before,
-  #contact::before {
+  #gallery::before
+  /*,
+  #contact::before
+  */ {
     content: '';
     display: block;
     visibility: hidden;
@@ -232,6 +234,7 @@
  ██       ██████   ██████     ██    ███████ ██   ██
  */
  #contact {
+   background-color: rgb(252, 243, 201);
 
  }
   
@@ -247,8 +250,9 @@
   }
 
   .footer-mobile-wrapper {
-    background-color: blueviolet;
-    background-color: rgb(252, 243, 201);
+    /*background-color: blueviolet;*/
+    height: 88vh;
+    
     width: 100%;
     
     display: flex;
@@ -268,7 +272,6 @@
     font-weight: bolder;
     margin: 0 auto;
     text-align: center;
-    width: 60%;
   }
 
   .mobile-social-ul {
