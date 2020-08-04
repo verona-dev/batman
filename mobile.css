@@ -15,6 +15,14 @@
   #hero {
     height: 800px;
     background-attachment: scroll;
+    background-image: -webkit-gradient(linear,
+        left top, left bottom,
+        from(rgba(68, 64, 64, 0.6)),
+        to(rgba(0, 0, 0, 0.4))),
+      url(img/batman-hero.jpg);
+    background-image: -o-linear-gradient(rgba(68, 64, 64, 0.6),
+        rgba(0, 0, 0, 0.4)),
+      url(img/batman-hero.jpg);
     background-image: linear-gradient(rgba(68, 64, 64, 0.6),
         rgba(0, 0, 0, 0.4)),
       url(img/batman-hero.jpg);
@@ -56,10 +64,17 @@
 
   #hero h1,
   #hero h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
-    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   #hero h1 {

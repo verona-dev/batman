@@ -22,7 +22,8 @@
 
 @media screen and (min-width: 1001px) and (max-width: 1279px) {
   nav ul li {
-    flex-basis: 15%;
+    -ms-flex-preferred-size: 15%;
+        flex-basis: 15%;
   }
 
   #hero {
@@ -47,11 +48,18 @@
 
   #hero h1,
   #hero h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     text-align: center;
-    align-content: center;
-    justify-content: space-around;
-    flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   #hero h1 {
@@ -123,7 +131,8 @@
   }
 
   .feature {
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     /*padding: 60px 40px;*/
     /*margin: 55px 0 180px;*/
   }
@@ -148,9 +157,14 @@
   .mobile-container {
     background-color: rgb(38, 38, 38);
     /*height: 2200px;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 
   .mobile-box {
@@ -221,7 +235,9 @@
   .mobile-copyright {
     /*top: 20%;*/
   }
-  
+}
+
+
   /*
 ███████ ███    ███  █████  ██      ██
 ██      ████  ████ ██   ██ ██      ██
@@ -229,4 +245,3 @@
      ██ ██  ██  ██ ██   ██ ██      ██
 ███████ ██      ██ ██   ██ ███████ ███████
 */
-

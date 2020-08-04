@@ -64,8 +64,12 @@
 
   nav {
     background-color: rgb(38, 38, 38);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 
   nav ul {
@@ -216,9 +220,14 @@
     height: 100%;
     /*padding-bottom: 60px;*/
     /*----FlexBox----*/
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 
   .mobile-box {
@@ -259,9 +268,15 @@
 
   .follow-b,
   .mobile-social-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   .footer-mobile-wrapper {
@@ -270,9 +285,17 @@
     
     width: 100%;
     
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .mobile-followb-wrapper {
@@ -291,7 +314,9 @@
 
   .mobile-social-ul {
     /*position: relative;*/
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 
   .mobile-social-list {
@@ -306,9 +331,15 @@
   }
 
   .mobile-copyright {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     position: relative;
     width: 100%;
     background-color: rgb(252, 243, 201);
@@ -321,7 +352,7 @@
   .mobile-a-copyright {
     /*background-color:  brown;*/
     color: rgb(38, 38, 38);
-    font-family: 'Cormorant', sans-serif;
+    font-family: 'Cormorant', Helvetica, sans-serif;
     text-decoration: none;
     font-size: 1.4rem;
   }
