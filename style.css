@@ -186,9 +186,6 @@ nav ul li a {
   margin: 50px 0;
 }
 
-.h2-gallery-wrapper {
-  padding-top: 50px 0;
-}
 
 .movies h2,
 .actors h2,
@@ -323,13 +320,13 @@ h3 {
   visibility: hidden;
 }
 
-#footer::before {
+/*#footer::before {
   content: '';
   display: block;
   height: -70px;
   margin-top: -70px;
   visibility: hidden;
-}
+}*/
 
 /*
 ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
@@ -448,7 +445,7 @@ h3 {
 /*-----------------------------------*/
 .batman-robin-poster {
   transition: transform 1.2s ease-in-out;
-  pointer-events: none;
+  /*pointer-events: none;*/
 }
 
 .batman-robin-wrapper:hover .batman-robin-poster {
