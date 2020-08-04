@@ -183,7 +183,7 @@ nav ul li a {
 .movies h2,
 .actors h2 {
   background-color: rgba(252, 226, 16, 0.1);
-  border: 4px dashed black;
+  border: 4px dashed rgb(38, 38, 38);
   color: rgb(38, 38, 38);
 }
 
@@ -356,7 +356,7 @@ h3 {
 .feature {
   height: 100%;
   /*<-- if navbar disappears, disable relative */
-  position: relative;
+  /*position: relative;*/
   text-align: center;
 }
 

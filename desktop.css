@@ -124,11 +124,11 @@
   ██   ██ ██    ██    ██       ██    ██    ██ ██  ██ ██
   ██████   ██████     ██       ██     ██████  ██   ████
   */
-  .button-wrapper a {
-    display: block;
+  .button-wrapper {
+    -webkit-backface-visibility: hidden;
   }
   .button-wrapper a:hover {
-    background-color: rgba(38, 38, 38, 0.8);
+    background-color: rgba(38, 38, 38, 0.85);
     color: rgb(253, 227, 17);
   }
 
