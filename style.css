@@ -503,13 +503,12 @@ h3 {
 ██████   ██████     ██       ██     ██████  ██   ████
 */
 .button-wrapper {
-  display: inline-block;
+  /*display: inline-block;*/
   display: block;
   cursor: pointer;
   text-align: center;
   width: 140px;
-  margin: 0 auto;
-  margin-top: 10%;
+  margin: 10% auto 0;
 }
 
 .button-wrapper,
