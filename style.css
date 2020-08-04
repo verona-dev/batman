@@ -7,7 +7,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  /*outline: 1px solid red;*/
 }
 
 html {
@@ -19,12 +18,9 @@ body {
   font-family: 'Raleway', Helvetica, sans-serif;
   width: 100%;
   max-width: 100%;
-  /*  height: 100%;*/
+
 }
 
-html, body {
-  /*height: 100%;*/
-}
 
 /*
 ███    ██  █████  ██    ██
@@ -50,12 +46,6 @@ header {
 .logo-link {
   width: 100%;
   display: inline-block;
-  /*
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  overflow: hidden;
-  */
 }
 
 .logo {
@@ -68,9 +58,6 @@ nav {
 }
 
 nav ul {
-  /*background-color: aqua;*/
-  /*width: 50vw;*/
-  /*margin: 0 auto;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,29 +68,21 @@ nav ul {
 }
 
 nav ul li {
-  /*background-color: red;*/
-  /*width: 150px;*/
   display: inline-block;
-  /*puts them on same ROW, instead column */
   line-height: 8vh;
-  /* same as parent's height; centers the content vertically */
   list-style: none;
   overflow: hidden;
   position: relative;
 }
 
 nav ul li a {
-  /*background-color: yellow;*/
-  /*color: rgb(237, 245, 252);*/
   color: whitesmoke;
   display: block;
-  /* clickable on outside text */
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
   text-transform: capitalize;
-  /*text-align: center;*/
   min-width: 7vw;
 }
 
@@ -160,7 +139,6 @@ nav ul li a {
 }
 
 #hero-text {
-  /*background-color: aquamarine;*/
   bottom: 5%;
   bottom: 38vh;
   color: whitesmoke;
@@ -178,18 +156,6 @@ nav ul li a {
   background-color: rgba(245, 245, 245, 0.2);
 }
 
-#hero h1, #hero h2 {
-  /*margin: 0 auto;*/
-}
-
-#hero h1 {
-  /*background-color: bisque;*/
-}
-
-#hero h2 {
-  /*background-color: bisque;*/
-}
-
 .h2-wrapper {
   min-width: 100%;
 }
@@ -197,7 +163,6 @@ nav ul li a {
 .h2-movies-actors-wrapper {
   margin: 50px 0;
 }
-
 
 .movies h2,
 .actors h2,
@@ -246,15 +211,11 @@ h3 {
   padding: 10px 30px;
 }
 
-.feature p {
-}
-
 .button {
   font-size: 1rem;
 }
 
 .text-wrapper p {
-  /*background-color: coral;*/
   font-family: 'Cormorant Upright', Georgia, serif;
   cursor: default;
   font-size: 1.6em;
@@ -279,10 +240,6 @@ h3 {
   font-weight: 500;
   line-height: 2.6em;
 }
-
-/*.address-text {
-  background-color: aquamarine;
-}*/
 
 .follow-b {
   font-family: 'Cormorant', Helvetica, sans-serif;
@@ -348,7 +305,6 @@ h3 {
   border: 12px solid whitesmoke;
   width: 100%;
   height: auto;
-  /*outline: 2px solid black;*/
 }
 
 .hero-to-movies,
@@ -393,7 +349,6 @@ h3 {
 }
 
 .boxes {
-  /*  ===   If add height, boxes will overlap   ===== */
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -405,24 +360,14 @@ h3 {
       flex-wrap: wrap;
   -ms-flex-line-pack: center;
       align-content: center;
-  /*  border: solid whitesmoke;
-  border-width: 0 12px 0;*/
 }
 
 .feature {
   height: 1300px;
   height: 100%;
-  position: relative;
   /*<-- if navbar disappears, disable relative */
-  /*flex-basis: 20%;*/
+  position: relative;
   text-align: center;
-  /*
-  margin-top: 50px;
-  padding: 35px 25px 0;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 25%;
-  */
 }
 
 /*
@@ -432,6 +377,7 @@ h3 {
 ██      ██ ██         ██    ██    ██ ██   ██ ██
 ██      ██  ██████    ██     ██████  ██   ██ ███████
 */
+
 .picture-wrapper {
   display: inline-block;
 }
@@ -503,7 +449,6 @@ h3 {
 ██████   ██████     ██       ██     ██████  ██   ████
 */
 .button-wrapper {
-  /*display: inline-block;*/
   display: block;
   cursor: pointer;
   text-align: center;

@@ -5,9 +5,6 @@
 ██  ██  ██ ██    ██ ██   ██ ██ ██      ██
 ██      ██  ██████  ██████  ██ ███████ ███████
 */
-
-
-
 /*@media screen and (max-width: 480px) and (orientation: portrait) */
 
 
@@ -30,10 +27,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    /*background-attachment: fixed; --> makes image glitch */
-    /*pointer-events: none;*/
-    /*cursor: default;*/
-    /*position: relative;*/
   }
 
   #bat-video {
@@ -48,17 +41,11 @@
   ██       ██████  ██   ████    ██
   */
   #hero-text {
-    /*background-color: rgba(93, 145, 214, 0.5);
-    background-color: rgba(114, 169, 226, 0.3);
-    background-color: rgba(123, 157, 201, 0.5);
-    */
     border: 2px solid yellow;
     border-radius: 14px;
-    /*padding: 0 10px 8px;*/
     position: relative;
     text-shadow: 4px 4px 2px black;
     top: 35%;
-    /*min-width: 80%;*/
     height: 20%;
   }
 
@@ -105,12 +92,10 @@
 
   h3 {
     font-size: 2rem;
-    /*margin: 20px 0;*/
   }
 
   p {
     font-size: 1.2rem;
-    /*padding: 10px 120px;*/
   }
 
   /*
@@ -120,22 +105,9 @@
 ██   ██ ██  ██ ██ ██      ██   ██ ██    ██ ██   ██      ██
 ██   ██ ██   ████  ██████ ██   ██  ██████  ██   ██ ███████
 */
-  /*  #movies::before,
-  #actors::before,
-  #gallery::before {
-    content: '';
-    display: block;
-    height: 80px;
-    margin-top: -80px;
-    visibility: hidden;
-  }*/
-  /*  #movies::before,
-  #actors::before,
-  #gallery::before {
-    height: 12vh;
-    margin-top: -12vh;
-  }*/
-  /*  #movies::before,
+  
+  /*  
+  #movies::before,
   #actors::before,
   #gallery::before,
   #contact::before {
@@ -144,7 +116,10 @@
     visibility: hidden;
     height: 8vh;
     margin-top: -8vh;
-  }*/
+  }
+  */
+  
+  
   /*
   ██     ██ ██████   █████  ██████  ██████  ███████ ██████  ███████
   ██     ██ ██   ██ ██   ██ ██   ██ ██   ██ ██      ██   ██ ██
@@ -152,11 +127,6 @@
   ██ ███ ██ ██   ██ ██   ██ ██      ██      ██      ██   ██      ██
    ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
   */
-  .feature {
-    /*border-radius: 25px;*/
-    /*    padding: 40px 0;*/
-    /*border-bottom: 2px solid black;*/
-  }
 
   .wrappers {
     border: 12px solid whitesmoke;
@@ -167,9 +137,6 @@
     border-radius: 22px;
     height: 200px;
     padding: 0 40px;
-    /*    
-    width: 300px;
-    */
   }
 
   .bale-picture {
@@ -183,10 +150,7 @@
  ██    ██ ██   ██ ██      ██      ██      ██   ██    ██
   ██████  ██   ██ ███████ ███████ ███████ ██   ██    ██
  */
-  .mobile-box {
-    /*margin-bottom: 40px;*/
-  }
-
+ 
   .mobile-box-wrapper {
     padding: 20px;
   }
@@ -210,12 +174,6 @@
 ██      ██    ██ ██    ██    ██    ██      ██   ██
 ██       ██████   ██████     ██    ███████ ██   ██
 */
-  .footer-mobile-wrapper {
-
-  }
-
-  .mobile-followb-wrapper {
-  }
 
   .follow-b {
     font-size: 2.4rem;
@@ -223,14 +181,6 @@
     text-indent: 0.6rem;
     height: 100%;
     width: 60%;
-  }
-
-  .mobile-social-ul {
-    /*top: 20vh;*/
-  }
-
-  .mobile-copyright {
-    /*top: 40%;*/
   }
 }
 

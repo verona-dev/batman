@@ -6,7 +6,6 @@
    ██    ██   ██ ██████  ███████ ███████    ██
 */
 
-
 @media screen and (min-width: 600px) {
   .mobile-container {
     padding-bottom: 30px;
@@ -19,20 +18,14 @@
 }
 
 
-
 @media screen and (min-width: 1001px) and (max-width: 1279px) {
   nav ul li {
     -ms-flex-preferred-size: 15%;
         flex-basis: 15%;
   }
 
-  #hero {
-    /*background-attachment: local;*/
-  }
-
   #bat-video {
     height: 40vh;
-    /*width: 100%;*/
     margin-top: 12vh;
   }
 
@@ -42,7 +35,6 @@
     background-color: rgba(123, 157, 201, 0.6);
     background-color: rgba(245, 245, 245, 0.2);
     height: 100px;
-    /*bottom: 60px;*/
     bottom: 14vh;
   }
 
@@ -133,8 +125,6 @@
   .feature {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    /*padding: 60px 40px;*/
-    /*margin: 55px 0 180px;*/
   }
 
   /*
@@ -156,7 +146,6 @@
 
   .mobile-container {
     background-color: rgb(38, 38, 38);
-    /*height: 2200px;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -165,10 +154,6 @@
             justify-content: space-evenly;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-
-  .mobile-box {
-    /*margin-bottom: 80px;*/
   }
 
   .mobile-box-wrapper {
@@ -199,19 +184,10 @@
   #contact {
     height: 100%;
   }
-  
-  .footer-mobile-wrapper {
-    /*height: 77vh;*/
-    /*height: 800px;*/
-  }
 
   .mobile-followb-wrapper {
-    /*background-color: #fff;*/
-    /*display: block;*/
-    /*height: 40vh;*/
     width: 100%;
     margin: 0 auto;
-    /*top: 0;*/
   }
 
   .follow-b {
@@ -222,26 +198,9 @@
     width: 60%;
   }
 
-  .mobile-social-ul {
-    /*background-color: yellow;*/
-    /*top: 5vh;*/
-  }
-
   .mobile-social-logo {
     width: 80px;
     height: 80px;
   }
-
-  .mobile-copyright {
-    /*top: 20%;*/
-  }
 }
 
-
-  /*
-███████ ███    ███  █████  ██      ██
-██      ████  ████ ██   ██ ██      ██
-███████ ██ ████ ██ ███████ ██      ██
-     ██ ██  ██  ██ ██   ██ ██      ██
-███████ ██      ██ ██   ██ ███████ ███████
-*/

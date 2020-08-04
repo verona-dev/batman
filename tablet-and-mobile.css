@@ -43,20 +43,15 @@
   }
 
   .logo-list {
-    /*background-color: aqua;*/
     max-width: 70%;
     width: 70%;
   }
 
   .logo-link {
-    /*background-color: yellow;*/
     width: 100%;
-    /*    position: absolute;
-    left: 0;*/
   }
 
   .logo {
-    /*background-color:  aquamarine;*/
     max-width: 100px;
     width: 90%;
     height: 12vh;
@@ -74,12 +69,10 @@
 
   nav ul {
     position: absolute;
-    /*background-color: aqua;*/
     width: 100%;
   }
 
   nav ul li {
-    /*background-color: crimson;*/
     line-height: 12vh;
     width: 100%;
   }
@@ -112,34 +105,6 @@
     width: 70%;
   }
 
-  .movies h2,
-  .actors h2 {}
-
-  #gallery h2 {}
-
-  /*
-██   ██ ███████ ██████   ██████
-██   ██ ██      ██   ██ ██    ██
-███████ █████   ██████  ██    ██
-██   ██ ██      ██   ██ ██    ██
-██   ██ ███████ ██   ██  ██████
-*/
-  #hero {
-    /*background-attachment: local;*/
-    /* the image is glitching ----
-    background-attachment: scroll;*/
-  }
-
-/*  #hero-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }*/
-
-  #hero h1 {}
-
-  #hero h2 {}
 
   /*
   █████  ███    ██  ██████ ██   ██  ██████  ██████  ███████
@@ -179,14 +144,11 @@
 
   .read-more,
   .source {
-    /*margin-top: 20px;*/
   }
 
   .actors-to-gallery {
     background-position: left;
     background-size: cover;
-    /*width: 100vw;
-    height: 100vh;*/
   }
 
   #gallery h1 {
@@ -218,7 +180,6 @@
   .mobile-container {
     background-color: rgb(38, 38, 38);
     height: 100%;
-    /*padding-bottom: 60px;*/
     /*----FlexBox----*/
     display: -webkit-box;
     display: -ms-flexbox;
@@ -232,10 +193,8 @@
 
   .mobile-box {
     border: 10px solid whitesmoke;
-    /*margin-bottom: 80px;*/
     text-align: center;
   }
-
 
   .mobile-box a {
     text-decoration: none;
@@ -259,7 +218,6 @@
  */
  #contact {
    background-color: rgb(252, 243, 201);
-
  }
   
   .footer-wrapper {
@@ -280,15 +238,10 @@
   }
 
   .footer-mobile-wrapper {
-    /*background-color: blueviolet;*/
     height: 88vh;
-    
     width: 100%;
-    
     display: -webkit-box;
-    
     display: -ms-flexbox;
-    
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
@@ -298,14 +251,7 @@
             flex-direction: column;
   }
 
-  .mobile-followb-wrapper {
-    /*background-color: blanchedalmond;*/
-    /*position: relative;
-    top: 5vh;*/
-  }
-
   .follow-b {
-    /*background-color: aquamarine;*/
     border: 3px solid;
     font-weight: bolder;
     margin: 0 auto;
@@ -313,21 +259,15 @@
   }
 
   .mobile-social-ul {
-    /*position: relative;*/
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
 
   .mobile-social-list {
-    /*background-color: darkkhaki;*/
     list-style: none;
     width: 150px;
     text-align: center;
-  }
-
-  .mobile-a-text {
-    /*     background-color: aqua;*/
   }
 
   .mobile-copyright {
@@ -343,14 +283,9 @@
     position: relative;
     width: 100%;
     background-color: rgb(252, 243, 201);
-    /*background-color: blue;*/
-    /*height: 40%;*/
-    /*background-color:  aqua;*/
-    /*margin: 0 auto;*/
   }
 
   .mobile-a-copyright {
-    /*background-color:  brown;*/
     color: rgb(38, 38, 38);
     font-family: 'Cormorant', Helvetica, sans-serif;
     text-decoration: none;
