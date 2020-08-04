@@ -5,8 +5,6 @@
 ██  ██  ██ ██    ██ ██   ██ ██ ██      ██
 ██      ██  ██████  ██████  ██ ███████ ███████
 */
-/*@media screen and (max-width: 480px) and (orientation: portrait) */
-
 
 @media screen and (max-width: 1000px) and (max-height: 800px) {
   #hero {
@@ -74,8 +72,8 @@
   }
 
   #hero h2 {
-    font-weight: 400;
     font-size: 1rem;
+    font-weight: 400;
     height: 40%;
     letter-spacing: 0.3rem;
     padding-bottom: 20px;
@@ -177,9 +175,9 @@
 
   .follow-b {
     font-size: 2.4rem;
+    height: 100%;
     letter-spacing: 0.6rem;
     text-indent: 0.6rem;
-    height: 100%;
     width: 60%;
   }
 }

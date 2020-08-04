@@ -39,8 +39,7 @@
   }
 
   #hero-text {
-    border: 7px rgb(253, 227, 17);
-    border-style: double;
+    border: 7px double rgb(253, 227, 17);
   }
 
   #hero h1 {
@@ -107,10 +106,7 @@
     background-size: 100vw 110%;
   }
 
-  .movies-to-actors {
-    background-size: 100vw 100%;
-  }
-
+  .movies-to-actors,
   .actors-to-gallery {
     background-size: 100vw 100%;
   }
@@ -495,8 +491,8 @@
   .copyright {
     background-color: coral;
     position: relative;
-    top: 20px;
     text-decoration: none;
+    top: 20px;
   }
 
   /*
@@ -682,11 +678,10 @@
   }
 
   .footer-info:hover .info-text {
-    width: 100%;
     display: inline;
     height: 100%;
-    width: 100%;
     text-align: center;
+    width: 100%;
   }
 
   /*
@@ -758,9 +753,9 @@
   ███████  ██████   ██████   ██████
   */
   .footer-info:hover .a-text {
-    text-decoration: none;
     display: inline-block;
     line-height: 15px;
+    text-decoration: none;
   }
 
   .a-text:hover .facebook {

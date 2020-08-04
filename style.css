@@ -10,15 +10,14 @@
 }
 
 html {
-  scroll-behavior: smooth;
   cursor: default;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Raleway', Helvetica, sans-serif;
-  width: 100%;
   max-width: 100%;
-
+  width: 100%;
 }
 
 
@@ -44,8 +43,8 @@ header {
 }
 
 .logo-link {
-  width: 100%;
   display: inline-block;
+  width: 100%;
 }
 
 .logo {
@@ -81,9 +80,9 @@ nav ul li a {
   font-family: 'Lato', Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 700;
+  min-width: 7vw;
   text-decoration: none;
   text-transform: capitalize;
-  min-width: 7vw;
 }
 
 
@@ -139,9 +138,9 @@ nav ul li a {
 }
 
 #hero-text {
-  bottom: 5%;
+  background-color: rgba(245, 245, 245, 0.2);
+  border-radius: 32px;
   bottom: 38vh;
-  color: whitesmoke;
   color: rgb(253, 227, 17);
   cursor: default;
   font-family: 'Lato', Helvetica, sans-serif;
@@ -150,10 +149,6 @@ nav ul li a {
   text-align: center;
   text-shadow: 6px 6px 4px black;
   text-transform: uppercase;
-  border-radius: 32px;
-  background-color: rgba(114, 169, 226, 0.3);
-  background-color: rgba(123, 157, 201, 0.5);
-  background-color: rgba(245, 245, 245, 0.2);
 }
 
 .h2-wrapper {
@@ -170,8 +165,8 @@ nav ul li a {
   font-family: 'Fredericka the Great', 'Comic Sans MS', sans-serif, cursive;
   font-size: 5rem;
   letter-spacing: 2rem;
-  text-align: center;
   margin: auto;
+  text-align: center;
   
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -205,9 +200,9 @@ h3 {
 }
 
 .feature p {
+  font-size: 1.2em;
   line-height: 1.4em;
   margin-bottom: 10px;
-  font-size: 1.2em;
   padding: 10px 30px;
 }
 
@@ -216,8 +211,8 @@ h3 {
 }
 
 .text-wrapper p {
-  font-family: 'Cormorant Upright', Georgia, serif;
   cursor: default;
+  font-family: 'Cormorant Upright', Georgia, serif;
   font-size: 1.6em;
   line-height: 1.2em;
   text-align: center;
@@ -235,15 +230,15 @@ h3 {
 }
 
 .address-text .address-manor {
-  font-style: italic;
   font-size: 2.2em;
+  font-style: italic;
   font-weight: 500;
   line-height: 2.6em;
 }
 
 .follow-b {
-  font-family: 'Cormorant', Helvetica, sans-serif;
   cursor: default;
+  font-family: 'Cormorant', Helvetica, sans-serif;
   font-size: 3em;
   font-weight: 500;
   width: 100%;
@@ -265,8 +260,8 @@ h3 {
 }
 
 .italics {
-  font-style: italic;
   display: inline;
+  font-style: italic;
 }
 
 /*
@@ -303,34 +298,30 @@ h3 {
 */
 .wrappers {
   border: 12px solid whitesmoke;
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 .hero-to-movies,
 .movies-to-actors,
 .actors-to-gallery {
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  height: 100%;
+  width: 100%;
 }
 
 .hero-to-movies {
   background-image: url(img/wrapper/bat-wings.jpg);
-  height: 100%;
-  width: 100%;
 }
 
 .movies-to-actors {
   background-image: url(img/wrapper/city-window.jpg);
-  height: 100%;
-  width: 100%;
 }
 
 .actors-to-gallery {
   background-image: url(img/wrapper/cartoon.jpg);
-  height: 100%;
-  width: 100%;
 }
 
 /*
@@ -363,7 +354,6 @@ h3 {
 }
 
 .feature {
-  height: 1300px;
   height: 100%;
   /*<-- if navbar disappears, disable relative */
   position: relative;
@@ -449,11 +439,11 @@ h3 {
 ██████   ██████     ██       ██     ██████  ██   ████
 */
 .button-wrapper {
-  display: block;
   cursor: pointer;
+  display: block;
+  margin: 10% auto 0;
   text-align: center;
   width: 140px;
-  margin: 10% auto 0;
 }
 
 .button-wrapper,

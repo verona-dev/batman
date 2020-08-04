@@ -52,9 +52,9 @@
   }
 
   .logo {
+    height: 12vh;
     max-width: 100px;
     width: 90%;
-    height: 12vh;
   }
 
   nav {
@@ -121,9 +121,9 @@
   */ {
     content: '';
     display: block;
-    visibility: hidden;
     height: 12vh;
     margin-top: -12vh;
+    visibility: hidden;
   }
 
   /*
@@ -134,8 +134,8 @@
   ███ ███  ██   ██ ██   ██ ██      ██      ███████ ██   ██ ███████
   */
   .feature {
-    padding: 60px 20px;
     border-top: 2px solid black;
+    padding: 60px 20px;
   }
 
   .feature-1 {
@@ -266,11 +266,12 @@
 
   .mobile-social-list {
     list-style: none;
-    width: 150px;
     text-align: center;
+    width: 150px;
   }
 
   .mobile-copyright {
+    background-color: rgb(252, 243, 201);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -282,13 +283,12 @@
             align-items: flex-end;
     position: relative;
     width: 100%;
-    background-color: rgb(252, 243, 201);
   }
 
   .mobile-a-copyright {
     color: rgb(38, 38, 38);
     font-family: 'Cormorant', Helvetica, sans-serif;
-    text-decoration: none;
     font-size: 1.4rem;
+    text-decoration: none;
   }
 }
