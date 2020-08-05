@@ -701,13 +701,14 @@
   }
 
   .footer-info:hover .follow-b {
-    padding: 40px 0 10px;
+    /*padding: 0px 0 10px;*/
     width: 100%;
   }
 
   .footer-info:hover .social-ul {
-    height: 40%;
+    height: 30%;
     width: 100%;
+    margin-bottom: 5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
