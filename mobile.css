@@ -210,3 +210,23 @@
     padding: 10px 50px;
   }
 }
+
+@media screen and (max-width: 380px) {
+  .boxes {
+    display: inline-block;
+  }
+  .picture-wrapper {
+    
+  }
+  .picture-wrapper:hover .batman-returns-poster {
+    transform: none;
+  }
+  .picture {
+    border-radius: 0;
+    padding: 0;
+    max-width: 300px;
+  }
+  .feature p {
+    padding: 0;
+  }
+}

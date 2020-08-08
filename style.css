@@ -92,7 +92,7 @@ nav ul li a {
 ██   ██ ███████ ██   ██  ██████
 */
 #hero {
-  background-color: chocolate;
+  /*background-color: chocolate;*/
   position: relative;
   width: 100%;
   -webkit-touch-callout: none;
