@@ -40,13 +40,14 @@
 
   #hero-text {
     border: 7px double rgb(253, 227, 17);
-    height: 30%;
+    max-height: 30%;
   }
 
   #hero h1 {
     font-size: 6rem;
     font-weight: bold;
     letter-spacing: 1rem;
+    margin-top: 10px;
     text-indent: 1rem;
   }
   
@@ -54,7 +55,6 @@
     font-size: 1.6rem;
     font-weight: 400;
     letter-spacing: 0.6rem;
-    margin-top: 10px;
     text-indent: 0.6rem;
     word-spacing: 0.2rem;
   }
