@@ -105,6 +105,7 @@ nav ul li a {
   -ms-user-select: none;
   /* Internet Explorer/Edge */
   user-select: none;
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,7 +142,6 @@ nav ul li a {
   color: rgb(253, 227, 17);
   cursor: default;
   font-family: 'Lato', Helvetica, sans-serif;
-  height: 23%;
   position: absolute;
   text-align: center;
   text-shadow: 6px 6px 4px black;
